@@ -8,7 +8,7 @@
       "id": "install-skills-with-codex",
       "title": "Skill 清单里的 Skill 怎么安装：直接用自然语言让 Codex 自己装",
       "shortTitle": "Skill 安装方法",
-      "category": "Skill 生态",
+      "category": "入门与生态 / Skill 使用",
       "source": "skills/install-skills-with-codex.md",
       "date": "2026-06-15",
       "summary": "讲解 Skill 清单、GitHub Skill 和本地 Skill 的安装思路，并给出可直接复制给 Codex 的自然语言示例。"
@@ -17,7 +17,7 @@
       "id": "codex-from-zero-to-one",
       "title": "写给 Codex 小白用户的详细教程：从 0 到 1，把 Codex 真正用起来",
       "shortTitle": "Codex 从 0 到 1",
-      "category": "入门教程",
+      "category": "入门与生态 / Codex 入门",
       "source": "1.md",
       "date": "2026-06-15",
       "summary": "从入口、Threads、项目文件夹、配置项到 Vibe Coding 的 Codex 新手路线。"
@@ -26,7 +26,7 @@
       "id": "codexplusplus-intro",
       "title": "Codex++：给 Codex App 加一层外部增强启动器",
       "shortTitle": "Codex++ 介绍",
-      "category": "工具生态",
+      "category": "入门与生态 / 工具扩展",
       "source": "codexplusplus.md",
       "date": "2026-06-15",
       "summary": "介绍 Codex++ 的定位、工作方式、主要功能、安装入口和使用边界。"
@@ -35,7 +35,7 @@
       "id": "research-writing-skill-intro",
       "title": "Research Writing Skill：把论文写作变成可追踪的协作流程",
       "shortTitle": "Research Writing Skill",
-      "category": "Skill 生态",
+      "category": "入门与生态 / Skill 使用",
       "source": "skills/research-writing-skill.md",
       "date": "2026-06-15",
       "summary": "介绍科研写作助手 Skill 的定位、模块结构、使用流程、适配平台和使用边界。"
@@ -44,7 +44,7 @@
       "id": "anbeime-official-anthropics-docx",
       "title": "anthropics/docx：Skill 说明与安装",
       "shortTitle": "anthropics/docx",
-      "category": "Skill 商店：官方技能 / 文档创建",
+      "category": "文档与演示 / 文档处理",
       "source": "skills/anbeime-skill-store/official/anthropics-docx.md",
       "date": "2026-06-15",
       "summary": "Create, edit, and analyze Word documents。来源：VoltAgent/awesome-agent-skills。"
@@ -53,7 +53,7 @@
       "id": "anbeime-official-anthropics-doc-coauthoring",
       "title": "anthropics/doc-coauthoring：Skill 说明与安装",
       "shortTitle": "anthropics/doc-coauthoring",
-      "category": "Skill 商店：官方技能 / 文档创建",
+      "category": "文档与演示 / 文档处理",
       "source": "skills/anbeime-skill-store/official/anthropics-doc-coauthoring.md",
       "date": "2026-06-15",
       "summary": "Collaborative document editing and co-authoring。来源：VoltAgent/awesome-agent-skills。"
@@ -62,7 +62,7 @@
       "id": "anbeime-official-anthropics-pptx",
       "title": "anthropics/pptx：Skill 说明与安装",
       "shortTitle": "anthropics/pptx",
-      "category": "Skill 商店：官方技能 / 文档创建",
+      "category": "文档与演示 / PPT 与演示",
       "source": "skills/anbeime-skill-store/official/anthropics-pptx.md",
       "date": "2026-06-15",
       "summary": "Create, edit, and analyze PowerPoint presentations。来源：VoltAgent/awesome-agent-skills。"
@@ -71,7 +71,7 @@
       "id": "anbeime-official-anthropics-xlsx",
       "title": "anthropics/xlsx：Skill 说明与安装",
       "shortTitle": "anthropics/xlsx",
-      "category": "Skill 商店：官方技能 / 文档创建",
+      "category": "文档与演示 / 文档处理",
       "source": "skills/anbeime-skill-store/official/anthropics-xlsx.md",
       "date": "2026-06-15",
       "summary": "Create, edit, and analyze Excel spreadsheets。来源：VoltAgent/awesome-agent-skills。"
@@ -80,7 +80,7 @@
       "id": "anbeime-official-anthropics-pdf",
       "title": "anthropics/pdf：Skill 说明与安装",
       "shortTitle": "anthropics/pdf",
-      "category": "Skill 商店：官方技能 / 文档创建",
+      "category": "文档与演示 / 文档处理",
       "source": "skills/anbeime-skill-store/official/anthropics-pdf.md",
       "date": "2026-06-15",
       "summary": "Extract text, create PDFs, and handle forms。来源：VoltAgent/awesome-agent-skills。"
@@ -89,7 +89,7 @@
       "id": "anbeime-official-anthropics-algorithmic-art",
       "title": "anthropics/algorithmic-art：Skill 说明与安装",
       "shortTitle": "anthropics/algorithmic-art",
-      "category": "Skill 商店：官方技能 / 创意与设计",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/anthropics-algorithmic-art.md",
       "date": "2026-06-15",
       "summary": "Create generative art using p5.js with seeded randomness。来源：VoltAgent/awesome-agent-skills。"
@@ -98,7 +98,7 @@
       "id": "anbeime-official-anthropics-canvas-design",
       "title": "anthropics/canvas-design：Skill 说明与安装",
       "shortTitle": "anthropics/canvas-design",
-      "category": "Skill 商店：官方技能 / 创意与设计",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/anthropics-canvas-design.md",
       "date": "2026-06-15",
       "summary": "Design visual art in PNG and PDF formats。来源：VoltAgent/awesome-agent-skills。"
@@ -107,7 +107,7 @@
       "id": "anbeime-official-anthropics-frontend-design",
       "title": "anthropics/frontend-design：Skill 说明与安装",
       "shortTitle": "anthropics/frontend-design",
-      "category": "Skill 商店：官方技能 / 创意与设计",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/anthropics-frontend-design.md",
       "date": "2026-06-15",
       "summary": "Frontend design and UI/UX development tools。来源：VoltAgent/awesome-agent-skills。"
@@ -116,7 +116,7 @@
       "id": "anbeime-official-anthropics-slack-gif-creator",
       "title": "anthropics/slack-gif-creator：Skill 说明与安装",
       "shortTitle": "anthropics/slack-gif-creator",
-      "category": "Skill 商店：官方技能 / 创意与设计",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/official/anthropics-slack-gif-creator.md",
       "date": "2026-06-15",
       "summary": "Create animated GIFs optimized for Slack size constraints。来源：VoltAgent/awesome-agent-skills。"
@@ -125,7 +125,7 @@
       "id": "anbeime-official-anthropics-theme-factory",
       "title": "anthropics/theme-factory：Skill 说明与安装",
       "shortTitle": "anthropics/theme-factory",
-      "category": "Skill 商店：官方技能 / 创意与设计",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/anthropics-theme-factory.md",
       "date": "2026-06-15",
       "summary": "Style artifacts with professional themes or generate custom themes。来源：VoltAgent/awesome-agent-skills。"
@@ -134,7 +134,7 @@
       "id": "anbeime-official-anthropics-web-artifacts-builder",
       "title": "anthropics/web-artifacts-builder：Skill 说明与安装",
       "shortTitle": "anthropics/web-artifacts-builder",
-      "category": "Skill 商店：官方技能 / 开发",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/anthropics-web-artifacts-builder.md",
       "date": "2026-06-15",
       "summary": "Build complex claude.ai HTML artifacts with React and Tailwind。来源：VoltAgent/awesome-agent-skills。"
@@ -143,7 +143,7 @@
       "id": "anbeime-official-anthropics-mcp-builder",
       "title": "anthropics/mcp-builder：Skill 说明与安装",
       "shortTitle": "anthropics/mcp-builder",
-      "category": "Skill 商店：官方技能 / 开发",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/anthropics-mcp-builder.md",
       "date": "2026-06-15",
       "summary": "Create MCP servers to integrate external APIs and services。来源：VoltAgent/awesome-agent-skills。"
@@ -152,7 +152,7 @@
       "id": "anbeime-official-anthropics-webapp-testing",
       "title": "anthropics/webapp-testing：Skill 说明与安装",
       "shortTitle": "anthropics/webapp-testing",
-      "category": "Skill 商店：官方技能 / 开发",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/anthropics-webapp-testing.md",
       "date": "2026-06-15",
       "summary": "Test local web applications using Playwright。来源：VoltAgent/awesome-agent-skills。"
@@ -161,7 +161,7 @@
       "id": "anbeime-official-anthropics-brand-guidelines",
       "title": "anthropics/brand-guidelines：Skill 说明与安装",
       "shortTitle": "anthropics/brand-guidelines",
-      "category": "Skill 商店：官方技能 / 品牌与沟通",
+      "category": "商业与生产力 / 品牌、营销与 CMS",
       "source": "skills/anbeime-skill-store/official/anthropics-brand-guidelines.md",
       "date": "2026-06-15",
       "summary": "Apply Anthropic's brand colors and typography to artifacts。来源：VoltAgent/awesome-agent-skills。"
@@ -170,7 +170,7 @@
       "id": "anbeime-official-anthropics-internal-comms",
       "title": "anthropics/internal-comms：Skill 说明与安装",
       "shortTitle": "anthropics/internal-comms",
-      "category": "Skill 商店：官方技能 / 品牌与沟通",
+      "category": "商业与生产力 / 品牌、营销与 CMS",
       "source": "skills/anbeime-skill-store/official/anthropics-internal-comms.md",
       "date": "2026-06-15",
       "summary": "Write status reports, newsletters, and FAQs。来源：VoltAgent/awesome-agent-skills。"
@@ -179,7 +179,7 @@
       "id": "anbeime-official-anthropics-skill-creator",
       "title": "anthropics/skill-creator：Skill 说明与安装",
       "shortTitle": "anthropics/skill-creator",
-      "category": "Skill 商店：官方技能 / Skill 元能力",
+      "category": "开发与自动化 / Skill 创建与管理",
       "source": "skills/anbeime-skill-store/official/anthropics-skill-creator.md",
       "date": "2026-06-15",
       "summary": "Guide for creating skills that extend Claude's capabilities。来源：VoltAgent/awesome-agent-skills。"
@@ -188,7 +188,7 @@
       "id": "anbeime-official-anthropics-template",
       "title": "anthropics/template：Skill 说明与安装",
       "shortTitle": "anthropics/template",
-      "category": "Skill 商店：官方技能 / Skill 元能力",
+      "category": "开发与自动化 / Skill 创建与管理",
       "source": "skills/anbeime-skill-store/official/anthropics-template.md",
       "date": "2026-06-15",
       "summary": "Basic template for creating new skills。来源：VoltAgent/awesome-agent-skills。"
@@ -197,7 +197,7 @@
       "id": "anbeime-official-vercel-labs-react-best-practices",
       "title": "vercel-labs/react-best-practices：Skill 说明与安装",
       "shortTitle": "vercel-labs/react-best-practices",
-      "category": "Skill 商店：官方技能 / Vercel 工程团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/vercel-labs-react-best-practices.md",
       "date": "2026-06-15",
       "summary": "React best practices and patterns。来源：VoltAgent/awesome-agent-skills。"
@@ -206,7 +206,7 @@
       "id": "anbeime-official-vercel-labs-vercel-deploy-claimable",
       "title": "vercel-labs/vercel-deploy-claimable：Skill 说明与安装",
       "shortTitle": "vercel-deploy-claimable",
-      "category": "Skill 商店：官方技能 / Vercel 工程团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/vercel-labs-vercel-deploy-claimable.md",
       "date": "2026-06-15",
       "summary": "Deploy projects to Vercel。来源：VoltAgent/awesome-agent-skills。"
@@ -215,7 +215,7 @@
       "id": "anbeime-official-vercel-labs-web-design-guidelines",
       "title": "vercel-labs/web-design-guidelines：Skill 说明与安装",
       "shortTitle": "vercel-labs/web-design-guidelines",
-      "category": "Skill 商店：官方技能 / Vercel 工程团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/vercel-labs-web-design-guidelines.md",
       "date": "2026-06-15",
       "summary": "Web design guidelines and standards。来源：VoltAgent/awesome-agent-skills。"
@@ -224,7 +224,7 @@
       "id": "anbeime-official-vercel-labs-composition-patterns",
       "title": "vercel-labs/composition-patterns：Skill 说明与安装",
       "shortTitle": "vercel-labs/composition-patterns",
-      "category": "Skill 商店：官方技能 / Vercel 工程团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/vercel-labs-composition-patterns.md",
       "date": "2026-06-15",
       "summary": "React component composition and reusable patterns。来源：VoltAgent/awesome-agent-skills。"
@@ -233,7 +233,7 @@
       "id": "anbeime-official-vercel-labs-next-best-practices",
       "title": "vercel-labs/next-best-practices：Skill 说明与安装",
       "shortTitle": "vercel-labs/next-best-practices",
-      "category": "Skill 商店：官方技能 / Vercel 工程团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/vercel-labs-next-best-practices.md",
       "date": "2026-06-15",
       "summary": "Next.js best practices and recommended patterns。来源：VoltAgent/awesome-agent-skills。"
@@ -242,7 +242,7 @@
       "id": "anbeime-official-vercel-labs-next-cache-components",
       "title": "vercel-labs/next-cache-components：Skill 说明与安装",
       "shortTitle": "vercel-labs/next-cache-components",
-      "category": "Skill 商店：官方技能 / Vercel 工程团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/vercel-labs-next-cache-components.md",
       "date": "2026-06-15",
       "summary": "Caching strategies and cache-aware components in Next.js。来源：VoltAgent/awesome-agent-skills。"
@@ -251,7 +251,7 @@
       "id": "anbeime-official-vercel-labs-next-upgrade",
       "title": "vercel-labs/next-upgrade：Skill 说明与安装",
       "shortTitle": "vercel-labs/next-upgrade",
-      "category": "Skill 商店：官方技能 / Vercel 工程团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/vercel-labs-next-upgrade.md",
       "date": "2026-06-15",
       "summary": "Upgrade Next.js projects to newer versions。来源：VoltAgent/awesome-agent-skills。"
@@ -260,7 +260,7 @@
       "id": "anbeime-official-vercel-labs-react-native-skills",
       "title": "vercel-labs/react-native-skills：Skill 说明与安装",
       "shortTitle": "vercel-labs/react-native-skills",
-      "category": "Skill 商店：官方技能 / Vercel 工程团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/vercel-labs-react-native-skills.md",
       "date": "2026-06-15",
       "summary": "React Native best practices and performance guidelines。来源：VoltAgent/awesome-agent-skills。"
@@ -269,7 +269,7 @@
       "id": "anbeime-official-cloudflare-agents-sdk",
       "title": "cloudflare/agents-sdk：Skill 说明与安装",
       "shortTitle": "cloudflare/agents-sdk",
-      "category": "Skill 商店：官方技能 / Cloudflare 团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/cloudflare-agents-sdk.md",
       "date": "2026-06-15",
       "summary": "Build stateful AI agents with scheduling, RPC, and MCP servers。来源：VoltAgent/awesome-agent-skills。"
@@ -278,7 +278,7 @@
       "id": "anbeime-official-cloudflare-building-ai-agent-on-cloudflare",
       "title": "cloudflare/building-ai-agent-on-cloudflare：Skill 说明与安装",
       "shortTitle": "building-ai-agent-on-cloudflare",
-      "category": "Skill 商店：官方技能 / Cloudflare 团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/cloudflare-building-ai-agent-on-cloudflare.md",
       "date": "2026-06-15",
       "summary": "Build AI agents with state and WebSockets on Cloudflare。来源：VoltAgent/awesome-agent-skills。"
@@ -287,7 +287,7 @@
       "id": "anbeime-official-cloudflare-building-mcp-server-on-cloudflare",
       "title": "cloudflare/building-mcp-server-on-cloudflare：Skill 说明与安装",
       "shortTitle": "building-mcp-server-on-cloudflare",
-      "category": "Skill 商店：官方技能 / Cloudflare 团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/cloudflare-building-mcp-server-on-cloudflare.md",
       "date": "2026-06-15",
       "summary": "Build remote MCP servers with tools and OAuth。来源：VoltAgent/awesome-agent-skills。"
@@ -296,7 +296,7 @@
       "id": "anbeime-official-cloudflare-commands",
       "title": "cloudflare/commands：Skill 说明与安装",
       "shortTitle": "cloudflare/commands",
-      "category": "Skill 商店：官方技能 / Cloudflare 团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/cloudflare-commands.md",
       "date": "2026-06-15",
       "summary": "Cloudflare CLI commands reference。来源：VoltAgent/awesome-agent-skills。"
@@ -305,7 +305,7 @@
       "id": "anbeime-official-cloudflare-durable-objects",
       "title": "cloudflare/durable-objects：Skill 说明与安装",
       "shortTitle": "cloudflare/durable-objects",
-      "category": "Skill 商店：官方技能 / Cloudflare 团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/cloudflare-durable-objects.md",
       "date": "2026-06-15",
       "summary": "Stateful coordination with RPC, SQLite, and WebSockets。来源：VoltAgent/awesome-agent-skills。"
@@ -314,7 +314,7 @@
       "id": "anbeime-official-cloudflare-web-perf",
       "title": "cloudflare/web-perf：Skill 说明与安装",
       "shortTitle": "cloudflare/web-perf",
-      "category": "Skill 商店：官方技能 / Cloudflare 团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/cloudflare-web-perf.md",
       "date": "2026-06-15",
       "summary": "Audit Core Web Vitals and render-blocking resources。来源：VoltAgent/awesome-agent-skills。"
@@ -323,7 +323,7 @@
       "id": "anbeime-official-cloudflare-wrangler",
       "title": "cloudflare/wrangler：Skill 说明与安装",
       "shortTitle": "cloudflare/wrangler",
-      "category": "Skill 商店：官方技能 / Cloudflare 团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/cloudflare-wrangler.md",
       "date": "2026-06-15",
       "summary": "Deploy and manage Workers, KV, R2, D1, Vectorize, Queues, Workflows。来源：VoltAgent/awesome-agent-skills。"
@@ -332,7 +332,7 @@
       "id": "anbeime-official-supabase-postgres-best-practices",
       "title": "supabase/postgres-best-practices：Skill 说明与安装",
       "shortTitle": "supabase/postgres-best-practices",
-      "category": "Skill 商店：官方技能 / Supabase 团队技能",
+      "category": "开发与自动化 / 数据与后端",
       "source": "skills/anbeime-skill-store/official/supabase-postgres-best-practices.md",
       "date": "2026-06-15",
       "summary": "PostgreSQL best practices for Supabase。来源：VoltAgent/awesome-agent-skills。"
@@ -341,7 +341,7 @@
       "id": "anbeime-official-google-labs-code-design-md",
       "title": "google-labs-code/design-md：Skill 说明与安装",
       "shortTitle": "google-labs-code/design-md",
-      "category": "Skill 商店：官方技能 / Google Labs 技能",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/google-labs-code-design-md.md",
       "date": "2026-06-15",
       "summary": "Create and manage DESIGN.md files。来源：VoltAgent/awesome-agent-skills。"
@@ -350,7 +350,7 @@
       "id": "anbeime-official-google-labs-code-react-components",
       "title": "google-labs-code/react-components：Skill 说明与安装",
       "shortTitle": "google-labs-code/react-components",
-      "category": "Skill 商店：官方技能 / Google Labs 技能",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/google-labs-code-react-components.md",
       "date": "2026-06-15",
       "summary": "Stitch to React components conversion。来源：VoltAgent/awesome-agent-skills。"
@@ -359,7 +359,7 @@
       "id": "anbeime-official-huggingface-hugging-face-cli",
       "title": "huggingface/hugging-face-cli：Skill 说明与安装",
       "shortTitle": "huggingface/hugging-face-cli",
-      "category": "Skill 商店：官方技能 / Hugging Face 团队技能",
+      "category": "AI 与智能体 / 模型与机器学习",
       "source": "skills/anbeime-skill-store/official/huggingface-hugging-face-cli.md",
       "date": "2026-06-15",
       "summary": "HF Hub CLI for models, datasets, repos, and compute jobs。来源：VoltAgent/awesome-agent-skills。"
@@ -368,7 +368,7 @@
       "id": "anbeime-official-huggingface-hugging-face-datasets",
       "title": "huggingface/hugging-face-datasets：Skill 说明与安装",
       "shortTitle": "huggingface/hugging-face-datasets",
-      "category": "Skill 商店：官方技能 / Hugging Face 团队技能",
+      "category": "AI 与智能体 / 模型与机器学习",
       "source": "skills/anbeime-skill-store/official/huggingface-hugging-face-datasets.md",
       "date": "2026-06-15",
       "summary": "Create and manage datasets with configs and SQL querying。来源：VoltAgent/awesome-agent-skills。"
@@ -377,7 +377,7 @@
       "id": "anbeime-official-huggingface-hugging-face-evaluation",
       "title": "huggingface/hugging-face-evaluation：Skill 说明与安装",
       "shortTitle": "hugging-face-evaluation",
-      "category": "Skill 商店：官方技能 / Hugging Face 团队技能",
+      "category": "AI 与智能体 / 模型与机器学习",
       "source": "skills/anbeime-skill-store/official/huggingface-hugging-face-evaluation.md",
       "date": "2026-06-15",
       "summary": "Model evaluation with vLLM/lighteval and eval tables。来源：VoltAgent/awesome-agent-skills。"
@@ -386,7 +386,7 @@
       "id": "anbeime-official-huggingface-hugging-face-jobs",
       "title": "huggingface/hugging-face-jobs：Skill 说明与安装",
       "shortTitle": "huggingface/hugging-face-jobs",
-      "category": "Skill 商店：官方技能 / Hugging Face 团队技能",
+      "category": "AI 与智能体 / 模型与机器学习",
       "source": "skills/anbeime-skill-store/official/huggingface-hugging-face-jobs.md",
       "date": "2026-06-15",
       "summary": "Run compute jobs and Python scripts on HF infrastructure。来源：VoltAgent/awesome-agent-skills。"
@@ -395,7 +395,7 @@
       "id": "anbeime-official-huggingface-hugging-face-model-trainer",
       "title": "huggingface/hugging-face-model-trainer：Skill 说明与安装",
       "shortTitle": "hugging-face-model-trainer",
-      "category": "Skill 商店：官方技能 / Hugging Face 团队技能",
+      "category": "AI 与智能体 / 模型与机器学习",
       "source": "skills/anbeime-skill-store/official/huggingface-hugging-face-model-trainer.md",
       "date": "2026-06-15",
       "summary": "Train models with TRL: SFT, DPO, GRPO, GGUF conversion。来源：VoltAgent/awesome-agent-skills。"
@@ -404,7 +404,7 @@
       "id": "anbeime-official-huggingface-hugging-face-paper-publisher",
       "title": "huggingface/hugging-face-paper-publisher：Skill 说明与安装",
       "shortTitle": "hugging-face-paper-publisher",
-      "category": "Skill 商店：官方技能 / Hugging Face 团队技能",
+      "category": "AI 与智能体 / 模型与机器学习",
       "source": "skills/anbeime-skill-store/official/huggingface-hugging-face-paper-publisher.md",
       "date": "2026-06-15",
       "summary": "Publish papers on HF Hub with model/dataset links。来源：VoltAgent/awesome-agent-skills。"
@@ -413,7 +413,7 @@
       "id": "anbeime-official-huggingface-hugging-face-tool-builder",
       "title": "huggingface/hugging-face-tool-builder：Skill 说明与安装",
       "shortTitle": "hugging-face-tool-builder",
-      "category": "Skill 商店：官方技能 / Hugging Face 团队技能",
+      "category": "AI 与智能体 / 模型与机器学习",
       "source": "skills/anbeime-skill-store/official/huggingface-hugging-face-tool-builder.md",
       "date": "2026-06-15",
       "summary": "Build reusable scripts for HF API operations。来源：VoltAgent/awesome-agent-skills。"
@@ -422,7 +422,7 @@
       "id": "anbeime-official-huggingface-hugging-face-trackio",
       "title": "huggingface/hugging-face-trackio：Skill 说明与安装",
       "shortTitle": "huggingface/hugging-face-trackio",
-      "category": "Skill 商店：官方技能 / Hugging Face 团队技能",
+      "category": "AI 与智能体 / 模型与机器学习",
       "source": "skills/anbeime-skill-store/official/huggingface-hugging-face-trackio.md",
       "date": "2026-06-15",
       "summary": "Track ML experiments with real-time dashboards。来源：VoltAgent/awesome-agent-skills。"
@@ -431,7 +431,7 @@
       "id": "anbeime-official-stripe-stripe-best-practices",
       "title": "stripe/stripe-best-practices：Skill 说明与安装",
       "shortTitle": "stripe/stripe-best-practices",
-      "category": "Skill 商店：官方技能 / Stripe 团队技能",
+      "category": "商业与生产力 / 支付与商业系统",
       "source": "skills/anbeime-skill-store/official/stripe-stripe-best-practices.md",
       "date": "2026-06-15",
       "summary": "Best practices for building Stripe integrations。来源：VoltAgent/awesome-agent-skills。"
@@ -440,7 +440,7 @@
       "id": "anbeime-official-stripe-upgrade-stripe",
       "title": "stripe/upgrade-stripe：Skill 说明与安装",
       "shortTitle": "stripe/upgrade-stripe",
-      "category": "Skill 商店：官方技能 / Stripe 团队技能",
+      "category": "商业与生产力 / 支付与商业系统",
       "source": "skills/anbeime-skill-store/official/stripe-upgrade-stripe.md",
       "date": "2026-06-15",
       "summary": "Upgrade Stripe SDK and API versions。来源：VoltAgent/awesome-agent-skills。"
@@ -449,7 +449,7 @@
       "id": "anbeime-official-trailofbits-ask-questions-if-underspecified",
       "title": "trailofbits/ask-questions-if-underspecified：Skill 说明与安装",
       "shortTitle": "ask-questions-if-underspecified",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-ask-questions-if-underspecified.md",
       "date": "2026-06-15",
       "summary": "Prompt for clarification on ambiguous requirements。来源：VoltAgent/awesome-agent-skills。"
@@ -458,7 +458,7 @@
       "id": "anbeime-official-trailofbits-audit-context-building",
       "title": "trailofbits/audit-context-building：Skill 说明与安装",
       "shortTitle": "trailofbits/audit-context-building",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-audit-context-building.md",
       "date": "2026-06-15",
       "summary": "Deep architectural context via ultra-granular code analysis。来源：VoltAgent/awesome-agent-skills。"
@@ -467,7 +467,7 @@
       "id": "anbeime-official-trailofbits-building-secure-contracts",
       "title": "trailofbits/building-secure-contracts：Skill 说明与安装",
       "shortTitle": "building-secure-contracts",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-building-secure-contracts.md",
       "date": "2026-06-15",
       "summary": "Smart contract security toolkit with vulnerability scanners for 6 blockchains。来源：VoltAgent/awesome-agent-skills。"
@@ -476,7 +476,7 @@
       "id": "anbeime-official-trailofbits-burpsuite-project-parser",
       "title": "trailofbits/burpsuite-project-parser：Skill 说明与安装",
       "shortTitle": "burpsuite-project-parser",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-burpsuite-project-parser.md",
       "date": "2026-06-15",
       "summary": "Search and extract data from Burp Suite project files。来源：VoltAgent/awesome-agent-skills。"
@@ -485,7 +485,7 @@
       "id": "anbeime-official-trailofbits-claude-in-chrome-troubleshooting",
       "title": "trailofbits/claude-in-chrome-troubleshooting：Skill 说明与安装",
       "shortTitle": "claude-in-chrome-troubleshooting",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-claude-in-chrome-troubleshooting.md",
       "date": "2026-06-15",
       "summary": "Diagnose and fix Claude in Chrome MCP extension connectivity issues。来源：VoltAgent/awesome-agent-skills。"
@@ -494,7 +494,7 @@
       "id": "anbeime-official-trailofbits-constant-time-analysis",
       "title": "trailofbits/constant-time-analysis：Skill 说明与安装",
       "shortTitle": "trailofbits/constant-time-analysis",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-constant-time-analysis.md",
       "date": "2026-06-15",
       "summary": "Detect compiler-induced timing side-channels in crypto code。来源：VoltAgent/awesome-agent-skills。"
@@ -503,7 +503,7 @@
       "id": "anbeime-official-trailofbits-culture-index",
       "title": "trailofbits/culture-index：Skill 说明与安装",
       "shortTitle": "trailofbits/culture-index",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-culture-index.md",
       "date": "2026-06-15",
       "summary": "Index and search culture documentation。来源：VoltAgent/awesome-agent-skills。"
@@ -512,7 +512,7 @@
       "id": "anbeime-official-trailofbits-differential-review",
       "title": "trailofbits/differential-review：Skill 说明与安装",
       "shortTitle": "trailofbits/differential-review",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-differential-review.md",
       "date": "2026-06-15",
       "summary": "Security-focused diff review with git history analysis。来源：VoltAgent/awesome-agent-skills。"
@@ -521,7 +521,7 @@
       "id": "anbeime-official-trailofbits-dwarf-expert",
       "title": "trailofbits/dwarf-expert：Skill 说明与安装",
       "shortTitle": "trailofbits/dwarf-expert",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-dwarf-expert.md",
       "date": "2026-06-15",
       "summary": "DWARF debugging format expertise。来源：VoltAgent/awesome-agent-skills。"
@@ -530,7 +530,7 @@
       "id": "anbeime-official-trailofbits-entry-point-analyzer",
       "title": "trailofbits/entry-point-analyzer：Skill 说明与安装",
       "shortTitle": "trailofbits/entry-point-analyzer",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-entry-point-analyzer.md",
       "date": "2026-06-15",
       "summary": "Identify state-changing entry points in smart contracts。来源：VoltAgent/awesome-agent-skills。"
@@ -539,7 +539,7 @@
       "id": "anbeime-official-trailofbits-firebase-apk-scanner",
       "title": "trailofbits/firebase-apk-scanner：Skill 说明与安装",
       "shortTitle": "trailofbits/firebase-apk-scanner",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-firebase-apk-scanner.md",
       "date": "2026-06-15",
       "summary": "Scan Android APKs for Firebase misconfigurations and security vulnerabilities。来源：VoltAgent/awesome-agent-skills。"
@@ -548,7 +548,7 @@
       "id": "anbeime-official-trailofbits-fix-review",
       "title": "trailofbits/fix-review：Skill 说明与安装",
       "shortTitle": "trailofbits/fix-review",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-fix-review.md",
       "date": "2026-06-15",
       "summary": "Verify fix commits address audit findings without new bugs。来源：VoltAgent/awesome-agent-skills。"
@@ -557,7 +557,7 @@
       "id": "anbeime-official-trailofbits-insecure-defaults",
       "title": "trailofbits/insecure-defaults：Skill 说明与安装",
       "shortTitle": "trailofbits/insecure-defaults",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-insecure-defaults.md",
       "date": "2026-06-15",
       "summary": "Detect insecure default configurations like hardcoded secrets, default credentials, and weak crypto。来源：VoltAgent/awesome-agent-skills。"
@@ -566,7 +566,7 @@
       "id": "anbeime-official-trailofbits-modern-python",
       "title": "trailofbits/modern-python：Skill 说明与安装",
       "shortTitle": "trailofbits/modern-python",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-modern-python.md",
       "date": "2026-06-15",
       "summary": "Modern Python tooling with uv, ruff, ty, and pytest best practices。来源：VoltAgent/awesome-agent-skills。"
@@ -575,7 +575,7 @@
       "id": "anbeime-official-trailofbits-property-based-testing",
       "title": "trailofbits/property-based-testing：Skill 说明与安装",
       "shortTitle": "trailofbits/property-based-testing",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-property-based-testing.md",
       "date": "2026-06-15",
       "summary": "Property-based testing for multiple languages and smart contracts。来源：VoltAgent/awesome-agent-skills。"
@@ -584,7 +584,7 @@
       "id": "anbeime-official-trailofbits-semgrep-rule-creator",
       "title": "trailofbits/semgrep-rule-creator：Skill 说明与安装",
       "shortTitle": "trailofbits/semgrep-rule-creator",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-semgrep-rule-creator.md",
       "date": "2026-06-15",
       "summary": "Create and refine Semgrep rules for vulnerability detection。来源：VoltAgent/awesome-agent-skills。"
@@ -593,7 +593,7 @@
       "id": "anbeime-official-trailofbits-semgrep-rule-variant-creator",
       "title": "trailofbits/semgrep-rule-variant-creator：Skill 说明与安装",
       "shortTitle": "semgrep-rule-variant-creator",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-semgrep-rule-variant-creator.md",
       "date": "2026-06-15",
       "summary": "Port existing Semgrep rules to new target languages with test-driven validation。来源：VoltAgent/awesome-agent-skills。"
@@ -602,7 +602,7 @@
       "id": "anbeime-official-trailofbits-sharp-edges",
       "title": "trailofbits/sharp-edges：Skill 说明与安装",
       "shortTitle": "trailofbits/sharp-edges",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-sharp-edges.md",
       "date": "2026-06-15",
       "summary": "Identify error-prone APIs and dangerous configurations。来源：VoltAgent/awesome-agent-skills。"
@@ -611,7 +611,7 @@
       "id": "anbeime-official-trailofbits-spec-to-code-compliance",
       "title": "trailofbits/spec-to-code-compliance：Skill 说明与安装",
       "shortTitle": "spec-to-code-compliance",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-spec-to-code-compliance.md",
       "date": "2026-06-15",
       "summary": "Specification-to-code compliance checker for blockchain audits。来源：VoltAgent/awesome-agent-skills。"
@@ -620,7 +620,7 @@
       "id": "anbeime-official-trailofbits-static-analysis",
       "title": "trailofbits/static-analysis：Skill 说明与安装",
       "shortTitle": "trailofbits/static-analysis",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-static-analysis.md",
       "date": "2026-06-15",
       "summary": "Static analysis toolkit with CodeQL, Semgrep, and SARIF。来源：VoltAgent/awesome-agent-skills。"
@@ -629,7 +629,7 @@
       "id": "anbeime-official-trailofbits-testing-handbook-skills",
       "title": "trailofbits/testing-handbook-skills：Skill 说明与安装",
       "shortTitle": "testing-handbook-skills",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-testing-handbook-skills.md",
       "date": "2026-06-15",
       "summary": "Testing Handbook skills: fuzzers, static analysis, sanitizers。来源：VoltAgent/awesome-agent-skills。"
@@ -638,7 +638,7 @@
       "id": "anbeime-official-trailofbits-variant-analysis",
       "title": "trailofbits/variant-analysis：Skill 说明与安装",
       "shortTitle": "trailofbits/variant-analysis",
-      "category": "Skill 商店：官方技能 / Trail of Bits 安全技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/trailofbits-variant-analysis.md",
       "date": "2026-06-15",
       "summary": "Find similar vulnerabilities via pattern-based analysis。来源：VoltAgent/awesome-agent-skills。"
@@ -647,7 +647,7 @@
       "id": "anbeime-official-expo-expo-app-design",
       "title": "expo/expo-app-design：Skill 说明与安装",
       "shortTitle": "expo/expo-app-design",
-      "category": "Skill 商店：官方技能 / Expo 团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/expo-expo-app-design.md",
       "date": "2026-06-15",
       "summary": "Design and build Expo applications。来源：VoltAgent/awesome-agent-skills。"
@@ -656,7 +656,7 @@
       "id": "anbeime-official-expo-expo-deployment",
       "title": "expo/expo-deployment：Skill 说明与安装",
       "shortTitle": "expo/expo-deployment",
-      "category": "Skill 商店：官方技能 / Expo 团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/expo-expo-deployment.md",
       "date": "2026-06-15",
       "summary": "Deploy Expo apps to production。来源：VoltAgent/awesome-agent-skills。"
@@ -665,7 +665,7 @@
       "id": "anbeime-official-expo-upgrading-expo",
       "title": "expo/upgrading-expo：Skill 说明与安装",
       "shortTitle": "expo/upgrading-expo",
-      "category": "Skill 商店：官方技能 / Expo 团队技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/expo-upgrading-expo.md",
       "date": "2026-06-15",
       "summary": "Upgrade Expo SDK versions。来源：VoltAgent/awesome-agent-skills。"
@@ -674,7 +674,7 @@
       "id": "anbeime-official-getsentry-agents-md",
       "title": "getsentry/agents-md：Skill 说明与安装",
       "shortTitle": "getsentry/agents-md",
-      "category": "Skill 商店：官方技能 / Sentry 团队技能",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/getsentry-agents-md.md",
       "date": "2026-06-15",
       "summary": "Generate and manage AGENTS.md files。来源：VoltAgent/awesome-agent-skills。"
@@ -683,7 +683,7 @@
       "id": "anbeime-official-getsentry-claude-settings-audit",
       "title": "getsentry/claude-settings-audit：Skill 说明与安装",
       "shortTitle": "getsentry/claude-settings-audit",
-      "category": "Skill 商店：官方技能 / Sentry 团队技能",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/getsentry-claude-settings-audit.md",
       "date": "2026-06-15",
       "summary": "Audit Claude settings configuration。来源：VoltAgent/awesome-agent-skills。"
@@ -692,7 +692,7 @@
       "id": "anbeime-official-getsentry-code-review",
       "title": "getsentry/code-review：Skill 说明与安装",
       "shortTitle": "getsentry/code-review",
-      "category": "Skill 商店：官方技能 / Sentry 团队技能",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/getsentry-code-review.md",
       "date": "2026-06-15",
       "summary": "Perform code reviews。来源：VoltAgent/awesome-agent-skills。"
@@ -701,7 +701,7 @@
       "id": "anbeime-official-getsentry-commit",
       "title": "getsentry/commit：Skill 说明与安装",
       "shortTitle": "getsentry/commit",
-      "category": "Skill 商店：官方技能 / Sentry 团队技能",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/getsentry-commit.md",
       "date": "2026-06-15",
       "summary": "Create commits with best practices。来源：VoltAgent/awesome-agent-skills。"
@@ -710,7 +710,7 @@
       "id": "anbeime-official-getsentry-create-pr",
       "title": "getsentry/create-pr：Skill 说明与安装",
       "shortTitle": "getsentry/create-pr",
-      "category": "Skill 商店：官方技能 / Sentry 团队技能",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/getsentry-create-pr.md",
       "date": "2026-06-15",
       "summary": "Create pull requests。来源：VoltAgent/awesome-agent-skills。"
@@ -719,7 +719,7 @@
       "id": "anbeime-official-getsentry-find-bugs",
       "title": "getsentry/find-bugs：Skill 说明与安装",
       "shortTitle": "getsentry/find-bugs",
-      "category": "Skill 商店：官方技能 / Sentry 团队技能",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/getsentry-find-bugs.md",
       "date": "2026-06-15",
       "summary": "Find and identify bugs in code。来源：VoltAgent/awesome-agent-skills。"
@@ -728,7 +728,7 @@
       "id": "anbeime-official-getsentry-iterate-pr",
       "title": "getsentry/iterate-pr：Skill 说明与安装",
       "shortTitle": "getsentry/iterate-pr",
-      "category": "Skill 商店：官方技能 / Sentry 团队技能",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/getsentry-iterate-pr.md",
       "date": "2026-06-15",
       "summary": "Iterate on pull request feedback。来源：VoltAgent/awesome-agent-skills。"
@@ -737,7 +737,7 @@
       "id": "anbeime-official-better-auth-best-practices",
       "title": "better-auth/best-practices：Skill 说明与安装",
       "shortTitle": "better-auth/best-practices",
-      "category": "Skill 商店：官方技能 / Better Auth 团队技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/better-auth-best-practices.md",
       "date": "2026-06-15",
       "summary": "Best practices for Better Auth integration。来源：VoltAgent/awesome-agent-skills。"
@@ -746,7 +746,7 @@
       "id": "anbeime-official-better-auth-commands",
       "title": "better-auth/commands：Skill 说明与安装",
       "shortTitle": "better-auth/commands",
-      "category": "Skill 商店：官方技能 / Better Auth 团队技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/better-auth-commands.md",
       "date": "2026-06-15",
       "summary": "Better Auth CLI commands。来源：VoltAgent/awesome-agent-skills。"
@@ -755,7 +755,7 @@
       "id": "anbeime-official-better-auth-create-auth",
       "title": "better-auth/create-auth：Skill 说明与安装",
       "shortTitle": "better-auth/create-auth",
-      "category": "Skill 商店：官方技能 / Better Auth 团队技能",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/better-auth-create-auth.md",
       "date": "2026-06-15",
       "summary": "Create authentication setup with Better Auth。来源：VoltAgent/awesome-agent-skills。"
@@ -764,7 +764,7 @@
       "id": "anbeime-official-tinybirdco-tinybird-best-practices",
       "title": "tinybirdco/tinybird-best-practices：Skill 说明与安装",
       "shortTitle": "tinybirdco/tinybird-best-practices",
-      "category": "Skill 商店：官方技能 / Tinybird 团队技能",
+      "category": "开发与自动化 / 数据与后端",
       "source": "skills/anbeime-skill-store/official/tinybirdco-tinybird-best-practices.md",
       "date": "2026-06-15",
       "summary": "Tinybird project guidelines for datasources, pipes, endpoints, and SQL。来源：VoltAgent/awesome-agent-skills。"
@@ -773,7 +773,7 @@
       "id": "anbeime-official-neondatabase-using-neon",
       "title": "neondatabase/using-neon：Skill 说明与安装",
       "shortTitle": "neondatabase/using-neon",
-      "category": "Skill 商店：官方技能 / Neon 团队技能",
+      "category": "开发与自动化 / 数据与后端",
       "source": "skills/anbeime-skill-store/official/neondatabase-using-neon.md",
       "date": "2026-06-15",
       "summary": "Best practices for Neon Serverless Postgres。来源：VoltAgent/awesome-agent-skills。"
@@ -782,7 +782,7 @@
       "id": "anbeime-official-dmmulroy-cloudflare-skill",
       "title": "dmmulroy/cloudflare-skill：Skill 说明与安装",
       "shortTitle": "dmmulroy/cloudflare-skill",
-      "category": "Skill 商店：官方技能 / Cloudflare 工程师技能",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/dmmulroy-cloudflare-skill.md",
       "date": "2026-06-15",
       "summary": "Cloudflare platform reference for Workers, Pages, storage, AI, and networking。来源：VoltAgent/awesome-agent-skills。"
@@ -791,7 +791,7 @@
       "id": "anbeime-official-fal-ai-community-fal-audio",
       "title": "fal-ai-community/fal-audio：Skill 说明与安装",
       "shortTitle": "fal-ai-community/fal-audio",
-      "category": "Skill 商店：官方技能 / fal.ai 团队技能",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/fal-ai-community-fal-audio.md",
       "date": "2026-06-15",
       "summary": "Text-to-speech and speech-to-text using fal.ai audio models。来源：VoltAgent/awesome-agent-skills。"
@@ -800,7 +800,7 @@
       "id": "anbeime-official-fal-ai-community-fal-generate",
       "title": "fal-ai-community/fal-generate：Skill 说明与安装",
       "shortTitle": "fal-ai-community/fal-generate",
-      "category": "Skill 商店：官方技能 / fal.ai 团队技能",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/fal-ai-community-fal-generate.md",
       "date": "2026-06-15",
       "summary": "Generate images and videos using fal.ai AI models。来源：VoltAgent/awesome-agent-skills。"
@@ -809,7 +809,7 @@
       "id": "anbeime-official-fal-ai-community-fal-image-edit",
       "title": "fal-ai-community/fal-image-edit：Skill 说明与安装",
       "shortTitle": "fal-ai-community/fal-image-edit",
-      "category": "Skill 商店：官方技能 / fal.ai 团队技能",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/fal-ai-community-fal-image-edit.md",
       "date": "2026-06-15",
       "summary": "AI-powered image editing with style transfer and object removal。来源：VoltAgent/awesome-agent-skills。"
@@ -818,7 +818,7 @@
       "id": "anbeime-official-fal-ai-community-fal-platform",
       "title": "fal-ai-community/fal-platform：Skill 说明与安装",
       "shortTitle": "fal-ai-community/fal-platform",
-      "category": "Skill 商店：官方技能 / fal.ai 团队技能",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/fal-ai-community-fal-platform.md",
       "date": "2026-06-15",
       "summary": "Platform APIs for model management, pricing, and usage tracking。来源：VoltAgent/awesome-agent-skills。"
@@ -827,7 +827,7 @@
       "id": "anbeime-official-fal-ai-community-fal-upscale",
       "title": "fal-ai-community/fal-upscale：Skill 说明与安装",
       "shortTitle": "fal-ai-community/fal-upscale",
-      "category": "Skill 商店：官方技能 / fal.ai 团队技能",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/fal-ai-community-fal-upscale.md",
       "date": "2026-06-15",
       "summary": "Upscale and enhance image and video resolution using AI。来源：VoltAgent/awesome-agent-skills。"
@@ -836,7 +836,7 @@
       "id": "anbeime-official-fal-ai-community-fal-workflow",
       "title": "fal-ai-community/fal-workflow：Skill 说明与安装",
       "shortTitle": "fal-ai-community/fal-workflow",
-      "category": "Skill 商店：官方技能 / fal.ai 团队技能",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/fal-ai-community-fal-workflow.md",
       "date": "2026-06-15",
       "summary": "Generate workflow JSON files for chaining AI models。来源：VoltAgent/awesome-agent-skills。"
@@ -845,7 +845,7 @@
       "id": "anbeime-official-sanity-io-sanity-best-practices",
       "title": "sanity-io/sanity-best-practices：Skill 说明与安装",
       "shortTitle": "sanity-io/sanity-best-practices",
-      "category": "Skill 商店：官方技能 / Sanity 团队技能",
+      "category": "商业与生产力 / 品牌、营销与 CMS",
       "source": "skills/anbeime-skill-store/official/sanity-io-sanity-best-practices.md",
       "date": "2026-06-15",
       "summary": "Best practices for Sanity Studio, GROQ queries, and content workflows。来源：VoltAgent/awesome-agent-skills。"
@@ -854,7 +854,7 @@
       "id": "anbeime-official-sanity-io-content-modeling-best-practices",
       "title": "sanity-io/content-modeling-best-practices：Skill 说明与安装",
       "shortTitle": "content-modeling-best-practices",
-      "category": "Skill 商店：官方技能 / Sanity 团队技能",
+      "category": "商业与生产力 / 品牌、营销与 CMS",
       "source": "skills/anbeime-skill-store/official/sanity-io-content-modeling-best-practices.md",
       "date": "2026-06-15",
       "summary": "Guidelines for designing scalable content models in Sanity。来源：VoltAgent/awesome-agent-skills。"
@@ -863,7 +863,7 @@
       "id": "anbeime-official-sanity-io-seo-aeo-best-practices",
       "title": "sanity-io/seo-aeo-best-practices：Skill 说明与安装",
       "shortTitle": "sanity-io/seo-aeo-best-practices",
-      "category": "Skill 商店：官方技能 / Sanity 团队技能",
+      "category": "商业与生产力 / 品牌、营销与 CMS",
       "source": "skills/anbeime-skill-store/official/sanity-io-seo-aeo-best-practices.md",
       "date": "2026-06-15",
       "summary": "SEO and answer engine optimization patterns for content sites。来源：VoltAgent/awesome-agent-skills。"
@@ -872,7 +872,7 @@
       "id": "anbeime-official-sanity-io-content-experimentation-best-practices",
       "title": "sanity-io/content-experimentation-best-practices：Skill 说明与安装",
       "shortTitle": "content-experimentation-best-practices",
-      "category": "Skill 商店：官方技能 / Sanity 团队技能",
+      "category": "商业与生产力 / 品牌、营销与 CMS",
       "source": "skills/anbeime-skill-store/official/sanity-io-content-experimentation-best-practices.md",
       "date": "2026-06-15",
       "summary": "Content A/B testing and experimentation workflows。来源：VoltAgent/awesome-agent-skills。"
@@ -881,7 +881,7 @@
       "id": "anbeime-official-remotion-dev-remotion",
       "title": "remotion-dev/remotion：Skill 说明与安装",
       "shortTitle": "remotion-dev/remotion",
-      "category": "Skill 商店：官方技能 / Remotion 团队技能",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/official/remotion-dev-remotion.md",
       "date": "2026-06-15",
       "summary": "Programmatic video creation with React。来源：VoltAgent/awesome-agent-skills。"
@@ -890,7 +890,7 @@
       "id": "anbeime-official-coreyhaines31-marketingskills",
       "title": "coreyhaines31/marketingskills：Skill 说明与安装",
       "shortTitle": "coreyhaines31/marketingskills",
-      "category": "Skill 商店：官方技能 / 营销",
+      "category": "商业与生产力 / 品牌、营销与 CMS",
       "source": "skills/anbeime-skill-store/official/coreyhaines31-marketingskills.md",
       "date": "2026-06-15",
       "summary": "23+ marketing skills for SEO, copywriting, email, and ads。来源：VoltAgent/awesome-agent-skills。"
@@ -899,7 +899,7 @@
       "id": "anbeime-official-composiohq-content-research-writer",
       "title": "ComposioHQ/content-research-writer：Skill 说明与安装",
       "shortTitle": "ComposioHQ/content-research-writer",
-      "category": "Skill 商店：官方技能 / 营销",
+      "category": "商业与生产力 / 品牌、营销与 CMS",
       "source": "skills/anbeime-skill-store/official/composiohq-content-research-writer.md",
       "date": "2026-06-15",
       "summary": "Enhance writing with research。来源：VoltAgent/awesome-agent-skills。"
@@ -908,7 +908,7 @@
       "id": "anbeime-official-composiohq-competitive-ads-extractor",
       "title": "ComposioHQ/competitive-ads-extractor：Skill 说明与安装",
       "shortTitle": "competitive-ads-extractor",
-      "category": "Skill 商店：官方技能 / 营销",
+      "category": "商业与生产力 / 品牌、营销与 CMS",
       "source": "skills/anbeime-skill-store/official/composiohq-competitive-ads-extractor.md",
       "date": "2026-06-15",
       "summary": "Analyze competitor advertising。来源：VoltAgent/awesome-agent-skills。"
@@ -917,7 +917,7 @@
       "id": "anbeime-official-wshuyi-x-article-publisher-skill",
       "title": "wshuyi/x-article-publisher-skill：Skill 说明与安装",
       "shortTitle": "wshuyi/x-article-publisher-skill",
-      "category": "Skill 商店：官方技能 / 营销",
+      "category": "商业与生产力 / 品牌、营销与 CMS",
       "source": "skills/anbeime-skill-store/official/wshuyi-x-article-publisher-skill.md",
       "date": "2026-06-15",
       "summary": "Publish articles to X/Twitter。来源：VoltAgent/awesome-agent-skills。"
@@ -926,7 +926,7 @@
       "id": "anbeime-official-notiondevs-notion-skills-for-claude",
       "title": "notiondevs/Notion Skills for Claude：Skill 说明与安装",
       "shortTitle": "Notion Skills for Claude",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/notiondevs-notion-skills-for-claude.md",
       "date": "2026-06-15",
       "summary": "Skills for working with Notion。来源：VoltAgent/awesome-agent-skills。"
@@ -935,7 +935,7 @@
       "id": "anbeime-official-op7418-nanobanana-ppt-skills",
       "title": "op7418/NanoBanana-PPT-Skills：Skill 说明与安装",
       "shortTitle": "op7418/NanoBanana-PPT-Skills",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/op7418-nanobanana-ppt-skills.md",
       "date": "2026-06-15",
       "summary": "AI-powered PPT generation with document analysis and styled images。来源：VoltAgent/awesome-agent-skills。"
@@ -944,7 +944,7 @@
       "id": "anbeime-official-zarazhangrui-frontend-slides",
       "title": "zarazhangrui/frontend-slides：Skill 说明与安装",
       "shortTitle": "zarazhangrui/frontend-slides",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/zarazhangrui-frontend-slides.md",
       "date": "2026-06-15",
       "summary": "Generate animation-rich HTML presentations with visual style previews。来源：VoltAgent/awesome-agent-skills。"
@@ -953,7 +953,7 @@
       "id": "anbeime-official-gokapso-integrate-whatsapp",
       "title": "gokapso/integrate-whatsapp：Skill 说明与安装",
       "shortTitle": "gokapso/integrate-whatsapp",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/gokapso-integrate-whatsapp.md",
       "date": "2026-06-15",
       "summary": "Connect WhatsApp, set up webhooks, and send messages。来源：VoltAgent/awesome-agent-skills。"
@@ -962,7 +962,7 @@
       "id": "anbeime-official-gokapso-automate-whatsapp",
       "title": "gokapso/automate-whatsapp：Skill 说明与安装",
       "shortTitle": "gokapso/automate-whatsapp",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/gokapso-automate-whatsapp.md",
       "date": "2026-06-15",
       "summary": "Build WhatsApp automations with workflows and agents。来源：VoltAgent/awesome-agent-skills。"
@@ -971,7 +971,7 @@
       "id": "anbeime-official-gokapso-observe-whatsapp",
       "title": "gokapso/observe-whatsapp：Skill 说明与安装",
       "shortTitle": "gokapso/observe-whatsapp",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/gokapso-observe-whatsapp.md",
       "date": "2026-06-15",
       "summary": "Debug WhatsApp delivery issues and run health checks。来源：VoltAgent/awesome-agent-skills。"
@@ -980,7 +980,7 @@
       "id": "anbeime-official-pleaseprompto-notebooklm-skill",
       "title": "PleasePrompto/notebooklm-skill：Skill 说明与安装",
       "shortTitle": "PleasePrompto/notebooklm-skill",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/pleaseprompto-notebooklm-skill.md",
       "date": "2026-06-15",
       "summary": "Interact with NotebookLM for document-based conversations。来源：VoltAgent/awesome-agent-skills。"
@@ -989,7 +989,7 @@
       "id": "anbeime-official-obra-superpowers-lab",
       "title": "obra/superpowers-lab：Skill 说明与安装",
       "shortTitle": "obra/superpowers-lab",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/obra-superpowers-lab.md",
       "date": "2026-06-15",
       "summary": "Lab environment for Claude superpowers。来源：VoltAgent/awesome-agent-skills。"
@@ -998,7 +998,7 @@
       "id": "anbeime-official-obra-brainstorming",
       "title": "obra/brainstorming：Skill 说明与安装",
       "shortTitle": "obra/brainstorming",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/obra-brainstorming.md",
       "date": "2026-06-15",
       "summary": "Generate and explore ideas。来源：VoltAgent/awesome-agent-skills。"
@@ -1007,7 +1007,7 @@
       "id": "anbeime-official-obra-writing-plans",
       "title": "obra/writing-plans：Skill 说明与安装",
       "shortTitle": "obra/writing-plans",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/obra-writing-plans.md",
       "date": "2026-06-15",
       "summary": "Create strategic documentation。来源：VoltAgent/awesome-agent-skills。"
@@ -1016,7 +1016,7 @@
       "id": "anbeime-official-obra-executing-plans",
       "title": "obra/executing-plans：Skill 说明与安装",
       "shortTitle": "obra/executing-plans",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/obra-executing-plans.md",
       "date": "2026-06-15",
       "summary": "Implement and run strategic plans。来源：VoltAgent/awesome-agent-skills。"
@@ -1025,7 +1025,7 @@
       "id": "anbeime-official-obra-dispatching-parallel-agents",
       "title": "obra/dispatching-parallel-agents：Skill 说明与安装",
       "shortTitle": "obra/dispatching-parallel-agents",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/obra-dispatching-parallel-agents.md",
       "date": "2026-06-15",
       "summary": "Coordinate multiple simultaneous agents。来源：VoltAgent/awesome-agent-skills。"
@@ -1034,7 +1034,7 @@
       "id": "anbeime-official-obra-sharing-skills",
       "title": "obra/sharing-skills：Skill 说明与安装",
       "shortTitle": "obra/sharing-skills",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/obra-sharing-skills.md",
       "date": "2026-06-15",
       "summary": "Distribute and communicate capabilities。来源：VoltAgent/awesome-agent-skills。"
@@ -1043,7 +1043,7 @@
       "id": "anbeime-official-obra-using-superpowers",
       "title": "obra/using-superpowers：Skill 说明与安装",
       "shortTitle": "obra/using-superpowers",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/obra-using-superpowers.md",
       "date": "2026-06-15",
       "summary": "Leverage core platform capabilities。来源：VoltAgent/awesome-agent-skills。"
@@ -1052,7 +1052,7 @@
       "id": "anbeime-official-composiohq-meeting-insights-analyzer",
       "title": "ComposioHQ/meeting-insights-analyzer：Skill 说明与安装",
       "shortTitle": "meeting-insights-analyzer",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/composiohq-meeting-insights-analyzer.md",
       "date": "2026-06-15",
       "summary": "Analyze meeting communication patterns。来源：VoltAgent/awesome-agent-skills。"
@@ -1061,7 +1061,7 @@
       "id": "anbeime-official-composiohq-image-enhancer",
       "title": "ComposioHQ/image-enhancer：Skill 说明与安装",
       "shortTitle": "ComposioHQ/image-enhancer",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/composiohq-image-enhancer.md",
       "date": "2026-06-15",
       "summary": "Improve image quality。来源：VoltAgent/awesome-agent-skills。"
@@ -1070,7 +1070,7 @@
       "id": "anbeime-official-wrsmith108-linear-claude-skill",
       "title": "wrsmith108/linear-claude-skill：Skill 说明与安装",
       "shortTitle": "wrsmith108/linear-claude-skill",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/wrsmith108-linear-claude-skill.md",
       "date": "2026-06-15",
       "summary": "Manage Linear issues, projects, and teams。来源：VoltAgent/awesome-agent-skills。"
@@ -1079,7 +1079,7 @@
       "id": "anbeime-official-shpigford-readme",
       "title": "Shpigford/readme：Skill 说明与安装",
       "shortTitle": "Shpigford/readme",
-      "category": "Skill 商店：官方技能 / 生产力与协作",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/shpigford-readme.md",
       "date": "2026-06-15",
       "summary": "Generate comprehensive project documentation。来源：VoltAgent/awesome-agent-skills。"
@@ -1088,7 +1088,7 @@
       "id": "anbeime-official-robzolkos-skill-rails-upgrade",
       "title": "robzolkos/skill-rails-upgrade：Skill 说明与安装",
       "shortTitle": "robzolkos/skill-rails-upgrade",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/robzolkos-skill-rails-upgrade.md",
       "date": "2026-06-15",
       "summary": "Analyze Rails apps and provide upgrade assessments。来源：VoltAgent/awesome-agent-skills。"
@@ -1097,7 +1097,7 @@
       "id": "anbeime-official-shpigford-screenshots",
       "title": "Shpigford/screenshots：Skill 说明与安装",
       "shortTitle": "Shpigford/screenshots",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/shpigford-screenshots.md",
       "date": "2026-06-15",
       "summary": "Generate marketing screenshots with Playwright。来源：VoltAgent/awesome-agent-skills。"
@@ -1106,7 +1106,7 @@
       "id": "anbeime-official-antonbabenko-terraform-skill",
       "title": "antonbabenko/terraform-skill：Skill 说明与安装",
       "shortTitle": "antonbabenko/terraform-skill",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/antonbabenko-terraform-skill.md",
       "date": "2026-06-15",
       "summary": "Terraform infrastructure as code best practices。来源：VoltAgent/awesome-agent-skills。"
@@ -1115,7 +1115,7 @@
       "id": "anbeime-official-zxkane-aws-skills",
       "title": "zxkane/aws-skills：Skill 说明与安装",
       "shortTitle": "zxkane/aws-skills",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/zxkane-aws-skills.md",
       "date": "2026-06-15",
       "summary": "AWS development with infrastructure automation and cloud architecture patterns。来源：VoltAgent/awesome-agent-skills。"
@@ -1124,7 +1124,7 @@
       "id": "anbeime-official-rootly-ai-labs-rootly-incident-responder",
       "title": "Rootly-AI-Labs/rootly-incident-responder：Skill 说明与安装",
       "shortTitle": "rootly-incident-responder",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/rootly-ai-labs-rootly-incident-responder.md",
       "date": "2026-06-15",
       "summary": "AI-powered incident response with ML similarity matching, solution suggestions, and on-call coordination. Requires [Rootly MCP Server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server)。来源：VoltAgent/awesome-agent-skills。"
@@ -1133,7 +1133,7 @@
       "id": "anbeime-official-conorluddy-ios-simulator-skill",
       "title": "conorluddy/ios-simulator-skill：Skill 说明与安装",
       "shortTitle": "conorluddy/ios-simulator-skill",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/conorluddy-ios-simulator-skill.md",
       "date": "2026-06-15",
       "summary": "Control iOS Simulator。来源：VoltAgent/awesome-agent-skills。"
@@ -1142,7 +1142,7 @@
       "id": "anbeime-official-sanjay3290-postgres",
       "title": "sanjay3290/postgres：Skill 说明与安装",
       "shortTitle": "sanjay3290/postgres",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 数据与后端",
       "source": "skills/anbeime-skill-store/official/sanjay3290-postgres.md",
       "date": "2026-06-15",
       "summary": "Execute safe read-only SQL queries against PostgreSQL databases。来源：VoltAgent/awesome-agent-skills。"
@@ -1151,7 +1151,7 @@
       "id": "anbeime-official-sanjay3290-deep-research",
       "title": "sanjay3290/deep-research：Skill 说明与安装",
       "shortTitle": "sanjay3290/deep-research",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "AI 与智能体 / 上下文与提示工程",
       "source": "skills/anbeime-skill-store/official/sanjay3290-deep-research.md",
       "date": "2026-06-15",
       "summary": "Autonomous multi-step research using Gemini Deep Research Agent。来源：VoltAgent/awesome-agent-skills。"
@@ -1160,7 +1160,7 @@
       "id": "anbeime-official-jthack-ffuf-claude-skill",
       "title": "jthack/ffuf-claude-skill：Skill 说明与安装",
       "shortTitle": "jthack/ffuf-claude-skill",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/jthack-ffuf-claude-skill.md",
       "date": "2026-06-15",
       "summary": "Web fuzzing with ffuf。来源：VoltAgent/awesome-agent-skills。"
@@ -1169,7 +1169,7 @@
       "id": "anbeime-official-lackeyjb-playwright-skill",
       "title": "lackeyjb/playwright-skill：Skill 说明与安装",
       "shortTitle": "lackeyjb/playwright-skill",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/lackeyjb-playwright-skill.md",
       "date": "2026-06-15",
       "summary": "Browser automation with Playwright。来源：VoltAgent/awesome-agent-skills。"
@@ -1178,7 +1178,7 @@
       "id": "anbeime-official-ibelick-ui-skills",
       "title": "ibelick/ui-skills：Skill 说明与安装",
       "shortTitle": "ibelick/ui-skills",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/ibelick-ui-skills.md",
       "date": "2026-06-15",
       "summary": "Opinionated, evolving constraints to guide agents when building interfaces。来源：VoltAgent/awesome-agent-skills。"
@@ -1187,7 +1187,7 @@
       "id": "anbeime-official-nextlevelbuilder-ui-ux-pro-max-skill",
       "title": "nextlevelbuilder/ui-ux-pro-max-skill：Skill 说明与安装",
       "shortTitle": "ui-ux-pro-max-skill",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/nextlevelbuilder-ui-ux-pro-max-skill.md",
       "date": "2026-06-15",
       "summary": "UI/UX design patterns and best practices。来源：VoltAgent/awesome-agent-skills。"
@@ -1196,7 +1196,7 @@
       "id": "anbeime-official-scarletkc-vexor",
       "title": "scarletkc/vexor：Skill 说明与安装",
       "shortTitle": "scarletkc/vexor",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 数据与后端",
       "source": "skills/anbeime-skill-store/official/scarletkc-vexor.md",
       "date": "2026-06-15",
       "summary": "Vector-powered CLI for semantic file search with a Claude/Codex skill。来源：VoltAgent/awesome-agent-skills。"
@@ -1205,7 +1205,7 @@
       "id": "anbeime-official-obra-test-driven-development",
       "title": "obra/test-driven-development：Skill 说明与安装",
       "shortTitle": "obra/test-driven-development",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/obra-test-driven-development.md",
       "date": "2026-06-15",
       "summary": "Write tests before implementing code。来源：VoltAgent/awesome-agent-skills。"
@@ -1214,7 +1214,7 @@
       "id": "anbeime-official-composiohq-changelog-generator",
       "title": "ComposioHQ/changelog-generator：Skill 说明与安装",
       "shortTitle": "ComposioHQ/changelog-generator",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/composiohq-changelog-generator.md",
       "date": "2026-06-15",
       "summary": "Transform git commits into release notes。来源：VoltAgent/awesome-agent-skills。"
@@ -1223,7 +1223,7 @@
       "id": "anbeime-official-obra-subagent-driven-development",
       "title": "obra/subagent-driven-development：Skill 说明与安装",
       "shortTitle": "obra/subagent-driven-development",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "AI 与智能体 / 多智能体协作",
       "source": "skills/anbeime-skill-store/official/obra-subagent-driven-development.md",
       "date": "2026-06-15",
       "summary": "Development using multiple sub-agents。来源：VoltAgent/awesome-agent-skills。"
@@ -1232,7 +1232,7 @@
       "id": "anbeime-official-obra-systematic-debugging",
       "title": "obra/systematic-debugging：Skill 说明与安装",
       "shortTitle": "obra/systematic-debugging",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/obra-systematic-debugging.md",
       "date": "2026-06-15",
       "summary": "Methodical problem-solving in code。来源：VoltAgent/awesome-agent-skills。"
@@ -1241,7 +1241,7 @@
       "id": "anbeime-official-obra-root-cause-tracing",
       "title": "obra/root-cause-tracing：Skill 说明与安装",
       "shortTitle": "obra/root-cause-tracing",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/obra-root-cause-tracing.md",
       "date": "2026-06-15",
       "summary": "Investigate and identify fundamental problems。来源：VoltAgent/awesome-agent-skills。"
@@ -1250,7 +1250,7 @@
       "id": "anbeime-official-obra-testing-skills-with-subagents",
       "title": "obra/testing-skills-with-subagents：Skill 说明与安装",
       "shortTitle": "obra/testing-skills-with-subagents",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "AI 与智能体 / 多智能体协作",
       "source": "skills/anbeime-skill-store/official/obra-testing-skills-with-subagents.md",
       "date": "2026-06-15",
       "summary": "Collaborative testing approaches。来源：VoltAgent/awesome-agent-skills。"
@@ -1259,7 +1259,7 @@
       "id": "anbeime-official-obra-testing-anti-patterns",
       "title": "obra/testing-anti-patterns：Skill 说明与安装",
       "shortTitle": "obra/testing-anti-patterns",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/obra-testing-anti-patterns.md",
       "date": "2026-06-15",
       "summary": "Identify ineffective testing practices。来源：VoltAgent/awesome-agent-skills。"
@@ -1268,7 +1268,7 @@
       "id": "anbeime-official-obra-finishing-a-development-branch",
       "title": "obra/finishing-a-development-branch：Skill 说明与安装",
       "shortTitle": "finishing-a-development-branch",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/obra-finishing-a-development-branch.md",
       "date": "2026-06-15",
       "summary": "Complete Git code branches。来源：VoltAgent/awesome-agent-skills。"
@@ -1277,7 +1277,7 @@
       "id": "anbeime-official-obra-requesting-code-review",
       "title": "obra/requesting-code-review：Skill 说明与安装",
       "shortTitle": "obra/requesting-code-review",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/obra-requesting-code-review.md",
       "date": "2026-06-15",
       "summary": "Initiate code review processes。来源：VoltAgent/awesome-agent-skills。"
@@ -1286,7 +1286,7 @@
       "id": "anbeime-official-obra-receiving-code-review",
       "title": "obra/receiving-code-review：Skill 说明与安装",
       "shortTitle": "obra/receiving-code-review",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/obra-receiving-code-review.md",
       "date": "2026-06-15",
       "summary": "Process and incorporate code feedback。来源：VoltAgent/awesome-agent-skills。"
@@ -1295,7 +1295,7 @@
       "id": "anbeime-official-obra-using-git-worktrees",
       "title": "obra/using-git-worktrees：Skill 说明与安装",
       "shortTitle": "obra/using-git-worktrees",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/obra-using-git-worktrees.md",
       "date": "2026-06-15",
       "summary": "Manage multiple Git working trees。来源：VoltAgent/awesome-agent-skills。"
@@ -1304,7 +1304,7 @@
       "id": "anbeime-official-obra-verification-before-completion",
       "title": "obra/verification-before-completion：Skill 说明与安装",
       "shortTitle": "verification-before-completion",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/obra-verification-before-completion.md",
       "date": "2026-06-15",
       "summary": "Validate work before finalizing。来源：VoltAgent/awesome-agent-skills。"
@@ -1313,7 +1313,7 @@
       "id": "anbeime-official-obra-condition-based-waiting",
       "title": "obra/condition-based-waiting：Skill 说明与安装",
       "shortTitle": "obra/condition-based-waiting",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/obra-condition-based-waiting.md",
       "date": "2026-06-15",
       "summary": "Manage conditional pauses or delays。来源：VoltAgent/awesome-agent-skills。"
@@ -1322,7 +1322,7 @@
       "id": "anbeime-official-obra-commands",
       "title": "obra/commands：Skill 说明与安装",
       "shortTitle": "obra/commands",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/obra-commands.md",
       "date": "2026-06-15",
       "summary": "Create and manage command structures。来源：VoltAgent/awesome-agent-skills。"
@@ -1331,7 +1331,7 @@
       "id": "anbeime-official-obra-writing-skills",
       "title": "obra/writing-skills：Skill 说明与安装",
       "shortTitle": "obra/writing-skills",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 应用开发与部署",
       "source": "skills/anbeime-skill-store/official/obra-writing-skills.md",
       "date": "2026-06-15",
       "summary": "Develop and document capabilities。来源：VoltAgent/awesome-agent-skills。"
@@ -1340,7 +1340,7 @@
       "id": "anbeime-official-fvadicamo-dev-agent-skills",
       "title": "fvadicamo/dev-agent-skills：Skill 说明与安装",
       "shortTitle": "fvadicamo/dev-agent-skills",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/fvadicamo-dev-agent-skills.md",
       "date": "2026-06-15",
       "summary": "Git and GitHub workflow skills for commits, PRs, and code reviews。来源：VoltAgent/awesome-agent-skills。"
@@ -1349,7 +1349,7 @@
       "id": "anbeime-official-omkamal-pypict-skill",
       "title": "omkamal/pypict-skill：Skill 说明与安装",
       "shortTitle": "omkamal/pypict-skill",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "开发与自动化 / 测试与工程效率",
       "source": "skills/anbeime-skill-store/official/omkamal-pypict-skill.md",
       "date": "2026-06-15",
       "summary": "Pairwise test generation。来源：VoltAgent/awesome-agent-skills。"
@@ -1358,7 +1358,7 @@
       "id": "anbeime-official-alinaqi-claude-bootstrap",
       "title": "alinaqi/claude-bootstrap：Skill 说明与安装",
       "shortTitle": "alinaqi/claude-bootstrap",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "安全与分析 / 安全审计与认证",
       "source": "skills/anbeime-skill-store/official/alinaqi-claude-bootstrap.md",
       "date": "2026-06-15",
       "summary": "Opinionated project initialization with security-first guardrails, spec-driven atomic todos, LLM testing patterns, and CLI tool orchestration (gh, vercel, supabase)。来源：VoltAgent/awesome-agent-skills。"
@@ -1367,7 +1367,7 @@
       "id": "anbeime-official-zhanghandong-makepad-skills",
       "title": "ZhangHanDong/makepad-skills：Skill 说明与安装",
       "shortTitle": "ZhangHanDong/makepad-skills",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/zhanghandong-makepad-skills.md",
       "date": "2026-06-15",
       "summary": "Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.。来源：VoltAgent/awesome-agent-skills。"
@@ -1376,7 +1376,7 @@
       "id": "anbeime-official-massimodeluisa-recursive-decomposition-skill",
       "title": "massimodeluisa/recursive-decomposition-skill：Skill 说明与安装",
       "shortTitle": "recursive-decomposition-skill",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/massimodeluisa-recursive-decomposition-skill.md",
       "date": "2026-06-15",
       "summary": "Handle long-context tasks (100+ files, 50k+ tokens) through recursive decomposition strategies based on RLM research。来源：VoltAgent/awesome-agent-skills。"
@@ -1385,7 +1385,7 @@
       "id": "anbeime-official-callstackincubator-react-native-best-practices",
       "title": "callstackincubator/react-native-best-practices：Skill 说明与安装",
       "shortTitle": "react-native-best-practices",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/callstackincubator-react-native-best-practices.md",
       "date": "2026-06-15",
       "summary": "Performance optimization for React Native apps from Callstack。来源：VoltAgent/awesome-agent-skills。"
@@ -1394,7 +1394,7 @@
       "id": "anbeime-official-avdlee-swiftui-expert-skill",
       "title": "AvdLee/swiftui-expert-skill：Skill 说明与安装",
       "shortTitle": "AvdLee/swiftui-expert-skill",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/avdlee-swiftui-expert-skill.md",
       "date": "2026-06-15",
       "summary": "Modern SwiftUI best practices and iOS 26+ Liquid Glass adoption。来源：VoltAgent/awesome-agent-skills。"
@@ -1403,7 +1403,7 @@
       "id": "anbeime-official-efremidze-swift-patterns-skill",
       "title": "efremidze/swift-patterns-skill：Skill 说明与安装",
       "shortTitle": "efremidze/swift-patterns-skill",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/efremidze-swift-patterns-skill.md",
       "date": "2026-06-15",
       "summary": "Modern Swift/SwiftUI best practices。来源：VoltAgent/awesome-agent-skills。"
@@ -1412,7 +1412,7 @@
       "id": "anbeime-official-cloudai-x-threejs-skills",
       "title": "CloudAI-X/threejs-skills：Skill 说明与安装",
       "shortTitle": "CloudAI-X/threejs-skills",
-      "category": "Skill 商店：官方技能 / 开发与测试",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/official/cloudai-x-threejs-skills.md",
       "date": "2026-06-15",
       "summary": "Three.js skills for creating 3D elements and interactive experiences。来源：VoltAgent/awesome-agent-skills。"
@@ -1421,7 +1421,7 @@
       "id": "anbeime-official-muratcankoylan-context-fundamentals",
       "title": "muratcankoylan/context-fundamentals：Skill 说明与安装",
       "shortTitle": "context-fundamentals",
-      "category": "Skill 商店：官方技能 / 上下文工程",
+      "category": "AI 与智能体 / 上下文与提示工程",
       "source": "skills/anbeime-skill-store/official/muratcankoylan-context-fundamentals.md",
       "date": "2026-06-15",
       "summary": "Understand what context is, why it matters, and the anatomy of context in agent systems。来源：VoltAgent/awesome-agent-skills。"
@@ -1430,7 +1430,7 @@
       "id": "anbeime-official-muratcankoylan-context-degradation",
       "title": "muratcankoylan/context-degradation：Skill 说明与安装",
       "shortTitle": "muratcankoylan/context-degradation",
-      "category": "Skill 商店：官方技能 / 上下文工程",
+      "category": "AI 与智能体 / 上下文与提示工程",
       "source": "skills/anbeime-skill-store/official/muratcankoylan-context-degradation.md",
       "date": "2026-06-15",
       "summary": "Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash。来源：VoltAgent/awesome-agent-skills。"
@@ -1439,7 +1439,7 @@
       "id": "anbeime-official-muratcankoylan-context-compression",
       "title": "muratcankoylan/context-compression：Skill 说明与安装",
       "shortTitle": "muratcankoylan/context-compression",
-      "category": "Skill 商店：官方技能 / 上下文工程",
+      "category": "AI 与智能体 / 上下文与提示工程",
       "source": "skills/anbeime-skill-store/official/muratcankoylan-context-compression.md",
       "date": "2026-06-15",
       "summary": "Design and evaluate compression strategies for long-running sessions。来源：VoltAgent/awesome-agent-skills。"
@@ -1448,7 +1448,7 @@
       "id": "anbeime-official-muratcankoylan-context-optimization",
       "title": "muratcankoylan/context-optimization：Skill 说明与安装",
       "shortTitle": "context-optimization",
-      "category": "Skill 商店：官方技能 / 上下文工程",
+      "category": "AI 与智能体 / 上下文与提示工程",
       "source": "skills/anbeime-skill-store/official/muratcankoylan-context-optimization.md",
       "date": "2026-06-15",
       "summary": "Apply compaction, masking, and caching strategies。来源：VoltAgent/awesome-agent-skills。"
@@ -1457,7 +1457,7 @@
       "id": "anbeime-official-muratcankoylan-multi-agent-patterns",
       "title": "muratcankoylan/multi-agent-patterns：Skill 说明与安装",
       "shortTitle": "multi-agent-patterns",
-      "category": "Skill 商店：官方技能 / 上下文工程",
+      "category": "AI 与智能体 / 上下文与提示工程",
       "source": "skills/anbeime-skill-store/official/muratcankoylan-multi-agent-patterns.md",
       "date": "2026-06-15",
       "summary": "Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures。来源：VoltAgent/awesome-agent-skills。"
@@ -1466,7 +1466,7 @@
       "id": "anbeime-official-muratcankoylan-memory-systems",
       "title": "muratcankoylan/memory-systems：Skill 说明与安装",
       "shortTitle": "muratcankoylan/memory-systems",
-      "category": "Skill 商店：官方技能 / 上下文工程",
+      "category": "AI 与智能体 / 上下文与提示工程",
       "source": "skills/anbeime-skill-store/official/muratcankoylan-memory-systems.md",
       "date": "2026-06-15",
       "summary": "Design short-term, long-term, and graph-based memory architectures。来源：VoltAgent/awesome-agent-skills。"
@@ -1475,7 +1475,7 @@
       "id": "anbeime-official-muratcankoylan-tool-design",
       "title": "muratcankoylan/tool-design：Skill 说明与安装",
       "shortTitle": "muratcankoylan/tool-design",
-      "category": "Skill 商店：官方技能 / 上下文工程",
+      "category": "AI 与智能体 / 上下文与提示工程",
       "source": "skills/anbeime-skill-store/official/muratcankoylan-tool-design.md",
       "date": "2026-06-15",
       "summary": "Build tools that agents can use effectively, including architectural reduction patterns。来源：VoltAgent/awesome-agent-skills。"
@@ -1484,7 +1484,7 @@
       "id": "anbeime-official-muratcankoylan-evaluation",
       "title": "muratcankoylan/evaluation：Skill 说明与安装",
       "shortTitle": "muratcankoylan/evaluation",
-      "category": "Skill 商店：官方技能 / 上下文工程",
+      "category": "AI 与智能体 / 上下文与提示工程",
       "source": "skills/anbeime-skill-store/official/muratcankoylan-evaluation.md",
       "date": "2026-06-15",
       "summary": "Build evaluation frameworks for agent systems。来源：VoltAgent/awesome-agent-skills。"
@@ -1493,7 +1493,7 @@
       "id": "anbeime-official-k-dense-ai-claude-scientific-skills",
       "title": "K-Dense-AI/claude-scientific-skills：Skill 说明与安装",
       "shortTitle": "claude-scientific-skills",
-      "category": "Skill 商店：官方技能 / 垂直领域",
+      "category": "垂直领域与其他 / 专业领域",
       "source": "skills/anbeime-skill-store/official/k-dense-ai-claude-scientific-skills.md",
       "date": "2026-06-15",
       "summary": "Scientific research and analysis skills。来源：VoltAgent/awesome-agent-skills。"
@@ -1502,7 +1502,7 @@
       "id": "anbeime-official-notmyself-claude-win11-speckit-update-skill",
       "title": "NotMyself/claude-win11-speckit-update-skill：Skill 说明与安装",
       "shortTitle": "claude-win11-speckit-update-skill",
-      "category": "Skill 商店：官方技能 / 垂直领域",
+      "category": "垂直领域与其他 / 专业领域",
       "source": "skills/anbeime-skill-store/official/notmyself-claude-win11-speckit-update-skill.md",
       "date": "2026-06-15",
       "summary": "Windows 11 system management。来源：VoltAgent/awesome-agent-skills。"
@@ -1511,7 +1511,7 @@
       "id": "anbeime-official-sanjay3290-imagen",
       "title": "sanjay3290/imagen：Skill 说明与安装",
       "shortTitle": "sanjay3290/imagen",
-      "category": "Skill 商店：官方技能 / 垂直领域",
+      "category": "垂直领域与其他 / 专业领域",
       "source": "skills/anbeime-skill-store/official/sanjay3290-imagen.md",
       "date": "2026-06-15",
       "summary": "Generate images using Google Gemini's API。来源：VoltAgent/awesome-agent-skills。"
@@ -1520,7 +1520,7 @@
       "id": "anbeime-official-jeffersonwarrior-claudisms",
       "title": "jeffersonwarrior/claudisms：Skill 说明与安装",
       "shortTitle": "jeffersonwarrior/claudisms",
-      "category": "Skill 商店：官方技能 / 垂直领域",
+      "category": "垂直领域与其他 / 专业领域",
       "source": "skills/anbeime-skill-store/official/jeffersonwarrior-claudisms.md",
       "date": "2026-06-15",
       "summary": "SMS messaging integration。来源：VoltAgent/awesome-agent-skills。"
@@ -1529,7 +1529,7 @@
       "id": "anbeime-official-shadowpr0-security-bluebook-builder",
       "title": "SHADOWPR0/security-bluebook-builder：Skill 说明与安装",
       "shortTitle": "security-bluebook-builder",
-      "category": "Skill 商店：官方技能 / 垂直领域",
+      "category": "垂直领域与其他 / 专业领域",
       "source": "skills/anbeime-skill-store/official/shadowpr0-security-bluebook-builder.md",
       "date": "2026-06-15",
       "summary": "Build security Blue Books for sensitive apps。来源：VoltAgent/awesome-agent-skills。"
@@ -1538,7 +1538,7 @@
       "id": "anbeime-official-obra-defense-in-depth",
       "title": "obra/defense-in-depth：Skill 说明与安装",
       "shortTitle": "obra/defense-in-depth",
-      "category": "Skill 商店：官方技能 / 垂直领域",
+      "category": "垂直领域与其他 / 专业领域",
       "source": "skills/anbeime-skill-store/official/obra-defense-in-depth.md",
       "date": "2026-06-15",
       "summary": "Multi-layered security approaches。来源：VoltAgent/awesome-agent-skills。"
@@ -1547,7 +1547,7 @@
       "id": "anbeime-official-huifer-claude-ally-health",
       "title": "huifer/Claude-Ally-Health：Skill 说明与安装",
       "shortTitle": "huifer/Claude-Ally-Health",
-      "category": "Skill 商店：官方技能 / 垂直领域",
+      "category": "垂直领域与其他 / 专业领域",
       "source": "skills/anbeime-skill-store/official/huifer-claude-ally-health.md",
       "date": "2026-06-15",
       "summary": "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.。来源：VoltAgent/awesome-agent-skills。"
@@ -1556,7 +1556,7 @@
       "id": "anbeime-official-frmoretto-clarity-gate",
       "title": "frmoretto/clarity-gate：Skill 说明与安装",
       "shortTitle": "frmoretto/clarity-gate",
-      "category": "Skill 商店：官方技能 / 垂直领域",
+      "category": "垂直领域与其他 / 专业领域",
       "source": "skills/anbeime-skill-store/official/frmoretto-clarity-gate.md",
       "date": "2026-06-15",
       "summary": "Pre-ingestion verification for epistemic quality in RAG systems with 9-point verification and Two-Round HITL workflow。来源：VoltAgent/awesome-agent-skills。"
@@ -1565,7 +1565,7 @@
       "id": "anbeime-official-zechenzhangagi-ai-research-skills",
       "title": "zechenzhangAGI/AI-research-SKILLs：Skill 说明与安装",
       "shortTitle": "zechenzhangAGI/AI-research-SKILLs",
-      "category": "Skill 商店：官方技能 / 垂直领域",
+      "category": "垂直领域与其他 / 专业领域",
       "source": "skills/anbeime-skill-store/official/zechenzhangagi-ai-research-skills.md",
       "date": "2026-06-15",
       "summary": "Comprehensive library of 77 AI research engineering skills across 20 categories including model architecture, fine-tuning, distributed training, inference, evaluation, and MLOps。来源：VoltAgent/awesome-agent-skills。"
@@ -1574,7 +1574,7 @@
       "id": "anbeime-official-czlonkowski-n8n-code-javascript",
       "title": "czlonkowski/n8n-code-javascript：Skill 说明与安装",
       "shortTitle": "czlonkowski/n8n-code-javascript",
-      "category": "Skill 商店：官方技能 / n8n 自动化",
+      "category": "开发与自动化 / 自动化流程",
       "source": "skills/anbeime-skill-store/official/czlonkowski-n8n-code-javascript.md",
       "date": "2026-06-15",
       "summary": "JavaScript in n8n Code nodes with data access patterns。来源：VoltAgent/awesome-agent-skills。"
@@ -1583,7 +1583,7 @@
       "id": "anbeime-official-czlonkowski-n8n-code-python",
       "title": "czlonkowski/n8n-code-python：Skill 说明与安装",
       "shortTitle": "czlonkowski/n8n-code-python",
-      "category": "Skill 商店：官方技能 / n8n 自动化",
+      "category": "开发与自动化 / 自动化流程",
       "source": "skills/anbeime-skill-store/official/czlonkowski-n8n-code-python.md",
       "date": "2026-06-15",
       "summary": "Python coding in n8n Code nodes with limitations。来源：VoltAgent/awesome-agent-skills。"
@@ -1592,7 +1592,7 @@
       "id": "anbeime-official-czlonkowski-n8n-expression-syntax",
       "title": "czlonkowski/n8n-expression-syntax：Skill 说明与安装",
       "shortTitle": "czlonkowski/n8n-expression-syntax",
-      "category": "Skill 商店：官方技能 / n8n 自动化",
+      "category": "开发与自动化 / 自动化流程",
       "source": "skills/anbeime-skill-store/official/czlonkowski-n8n-expression-syntax.md",
       "date": "2026-06-15",
       "summary": "n8n expression syntax with {{}} and $json/$node variables。来源：VoltAgent/awesome-agent-skills。"
@@ -1601,7 +1601,7 @@
       "id": "anbeime-official-czlonkowski-n8n-mcp-tools-expert",
       "title": "czlonkowski/n8n-mcp-tools-expert：Skill 说明与安装",
       "shortTitle": "czlonkowski/n8n-mcp-tools-expert",
-      "category": "Skill 商店：官方技能 / n8n 自动化",
+      "category": "开发与自动化 / 自动化流程",
       "source": "skills/anbeime-skill-store/official/czlonkowski-n8n-mcp-tools-expert.md",
       "date": "2026-06-15",
       "summary": "MCP tools guide with tool selection and node formats。来源：VoltAgent/awesome-agent-skills。"
@@ -1610,7 +1610,7 @@
       "id": "anbeime-official-czlonkowski-n8n-node-configuration",
       "title": "czlonkowski/n8n-node-configuration：Skill 说明与安装",
       "shortTitle": "czlonkowski/n8n-node-configuration",
-      "category": "Skill 商店：官方技能 / n8n 自动化",
+      "category": "开发与自动化 / 自动化流程",
       "source": "skills/anbeime-skill-store/official/czlonkowski-n8n-node-configuration.md",
       "date": "2026-06-15",
       "summary": "Node configuration with dependency rules and AI connections。来源：VoltAgent/awesome-agent-skills。"
@@ -1619,7 +1619,7 @@
       "id": "anbeime-official-czlonkowski-n8n-validation-expert",
       "title": "czlonkowski/n8n-validation-expert：Skill 说明与安装",
       "shortTitle": "czlonkowski/n8n-validation-expert",
-      "category": "Skill 商店：官方技能 / n8n 自动化",
+      "category": "开发与自动化 / 自动化流程",
       "source": "skills/anbeime-skill-store/official/czlonkowski-n8n-validation-expert.md",
       "date": "2026-06-15",
       "summary": "Fix n8n validation errors with error catalog。来源：VoltAgent/awesome-agent-skills。"
@@ -1628,7 +1628,7 @@
       "id": "anbeime-official-czlonkowski-n8n-workflow-patterns",
       "title": "czlonkowski/n8n-workflow-patterns：Skill 说明与安装",
       "shortTitle": "czlonkowski/n8n-workflow-patterns",
-      "category": "Skill 商店：官方技能 / n8n 自动化",
+      "category": "开发与自动化 / 自动化流程",
       "source": "skills/anbeime-skill-store/official/czlonkowski-n8n-workflow-patterns.md",
       "date": "2026-06-15",
       "summary": "Workflow patterns for webhook, HTTP, database, and AI tasks。来源：VoltAgent/awesome-agent-skills。"
@@ -1637,7 +1637,7 @@
       "id": "anbeime-official-materials-simulation-skills",
       "title": "materials-simulation-skills：Skill 说明与安装",
       "shortTitle": "materials-simulation-skills",
-      "category": "Skill 商店：官方技能 / 其他",
+      "category": "垂直领域与其他 / 其他技能",
       "source": "skills/anbeime-skill-store/official/materials-simulation-skills.md",
       "date": "2026-06-15",
       "summary": "Agent skills for computational materials science: numerical stability, time-stepping, linear solvers, mesh generation, simulation validation, parameter optimization, and post-processing。来源：VoltAgent/awesome-agent-skills。"
@@ -1646,7 +1646,7 @@
       "id": "anbeime-official-wrsmith108-varlock-claude-skill",
       "title": "wrsmith108/varlock-claude-skill：Skill 说明与安装",
       "shortTitle": "wrsmith108/varlock-claude-skill",
-      "category": "Skill 商店：官方技能 / 其他",
+      "category": "垂直领域与其他 / 其他技能",
       "source": "skills/anbeime-skill-store/official/wrsmith108-varlock-claude-skill.md",
       "date": "2026-06-15",
       "summary": "Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits。来源：VoltAgent/awesome-agent-skills。"
@@ -1655,7 +1655,7 @@
       "id": "anbeime-official-shadowpr0-beautiful-prose",
       "title": "SHADOWPR0/beautiful_prose：Skill 说明与安装",
       "shortTitle": "SHADOWPR0/beautiful_prose",
-      "category": "Skill 商店：官方技能 / 其他",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/shadowpr0-beautiful-prose.md",
       "date": "2026-06-15",
       "summary": "Hard-edged writing style contract for timeless, forceful English prose without AI tics。来源：VoltAgent/awesome-agent-skills。"
@@ -1664,7 +1664,7 @@
       "id": "anbeime-official-seanzor-claude-speed-reader",
       "title": "SeanZoR/claude-speed-reader：Skill 说明与安装",
       "shortTitle": "SeanZoR/claude-speed-reader",
-      "category": "Skill 商店：官方技能 / 其他",
+      "category": "商业与生产力 / 协作与知识管理",
       "source": "skills/anbeime-skill-store/official/seanzor-claude-speed-reader.md",
       "date": "2026-06-15",
       "summary": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting。来源：VoltAgent/awesome-agent-skills。"
@@ -1673,7 +1673,7 @@
       "id": "anbeime-official-skill-seekers",
       "title": "Skill_Seekers：Skill 说明与安装",
       "shortTitle": "Skill_Seekers",
-      "category": "Skill 商店：官方技能 / 其他",
+      "category": "垂直领域与其他 / 其他技能",
       "source": "skills/anbeime-skill-store/official/skill-seekers.md",
       "date": "2026-06-15",
       "summary": "Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.。来源：VoltAgent/awesome-agent-skills。"
@@ -1682,7 +1682,7 @@
       "id": "anbeime-local-content-creation-publisher",
       "title": "content-creation-publisher：Skill 说明与安装",
       "shortTitle": "content-creation-publisher",
-      "category": "Skill 商店：本地技能 / 内容创作与发布",
+      "category": "内容创作与设计 / 内容发布",
       "source": "skills/anbeime-skill-store/local/content-creation-publisher.md",
       "date": "2026-06-15",
       "summary": "content-creation-publisher 是 anbeime/skill 本地技能库中“内容创作与发布”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1691,7 +1691,7 @@
       "id": "anbeime-local-intelligent-content-system",
       "title": "intelligent-content-system：Skill 说明与安装",
       "shortTitle": "intelligent-content-system",
-      "category": "Skill 商店：本地技能 / 内容创作与发布",
+      "category": "内容创作与设计 / 内容发布",
       "source": "skills/anbeime-skill-store/local/intelligent-content-system.md",
       "date": "2026-06-15",
       "summary": "intelligent-content-system 是 anbeime/skill 本地技能库中“内容创作与发布”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1700,7 +1700,7 @@
       "id": "anbeime-local-article-illustrator",
       "title": "article-illustrator：Skill 说明与安装",
       "shortTitle": "article-illustrator",
-      "category": "Skill 商店：本地技能 / 内容创作与发布",
+      "category": "内容创作与设计 / 内容发布",
       "source": "skills/anbeime-skill-store/local/article-illustrator.md",
       "date": "2026-06-15",
       "summary": "article-illustrator 是 anbeime/skill 本地技能库中“内容创作与发布”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1709,7 +1709,7 @@
       "id": "anbeime-local-baoyu-url-to-markdown",
       "title": "baoyu-url-to-markdown：Skill 说明与安装",
       "shortTitle": "baoyu-url-to-markdown",
-      "category": "Skill 商店：本地技能 / 内容创作与发布",
+      "category": "内容创作与设计 / 内容发布",
       "source": "skills/anbeime-skill-store/local/baoyu-url-to-markdown.md",
       "date": "2026-06-15",
       "summary": "baoyu-url-to-markdown 是 anbeime/skill 本地技能库中“内容创作与发布”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1718,7 +1718,7 @@
       "id": "anbeime-local-baoyu-format-markdown",
       "title": "baoyu-format-markdown：Skill 说明与安装",
       "shortTitle": "baoyu-format-markdown",
-      "category": "Skill 商店：本地技能 / 内容创作与发布",
+      "category": "内容创作与设计 / 内容发布",
       "source": "skills/anbeime-skill-store/local/baoyu-format-markdown.md",
       "date": "2026-06-15",
       "summary": "baoyu-format-markdown 是 anbeime/skill 本地技能库中“内容创作与发布”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1727,7 +1727,7 @@
       "id": "anbeime-local-baoyu-post-to-wechat",
       "title": "baoyu-post-to-wechat：Skill 说明与安装",
       "shortTitle": "baoyu-post-to-wechat",
-      "category": "Skill 商店：本地技能 / 内容创作与发布",
+      "category": "内容创作与设计 / 内容发布",
       "source": "skills/anbeime-skill-store/local/baoyu-post-to-wechat.md",
       "date": "2026-06-15",
       "summary": "baoyu-post-to-wechat 是 anbeime/skill 本地技能库中“内容创作与发布”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1736,7 +1736,7 @@
       "id": "anbeime-local-baoyu-post-to-x",
       "title": "baoyu-post-to-x：Skill 说明与安装",
       "shortTitle": "baoyu-post-to-x",
-      "category": "Skill 商店：本地技能 / 内容创作与发布",
+      "category": "内容创作与设计 / 内容发布",
       "source": "skills/anbeime-skill-store/local/baoyu-post-to-x.md",
       "date": "2026-06-15",
       "summary": "baoyu-post-to-x 是 anbeime/skill 本地技能库中“内容创作与发布”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1745,7 +1745,7 @@
       "id": "anbeime-local-baoyu-xhs-images",
       "title": "baoyu-xhs-images：Skill 说明与安装",
       "shortTitle": "baoyu-xhs-images",
-      "category": "Skill 商店：本地技能 / 内容创作与发布",
+      "category": "内容创作与设计 / 内容发布",
       "source": "skills/anbeime-skill-store/local/baoyu-xhs-images.md",
       "date": "2026-06-15",
       "summary": "baoyu-xhs-images 是 anbeime/skill 本地技能库中“内容创作与发布”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1754,7 +1754,7 @@
       "id": "anbeime-local-wechat-hotspot-publisher",
       "title": "wechat-hotspot-publisher：Skill 说明与安装",
       "shortTitle": "wechat-hotspot-publisher",
-      "category": "Skill 商店：本地技能 / 内容创作与发布",
+      "category": "内容创作与设计 / 内容发布",
       "source": "skills/anbeime-skill-store/local/wechat-hotspot-publisher.md",
       "date": "2026-06-15",
       "summary": "wechat-hotspot-publisher 是 anbeime/skill 本地技能库中“内容创作与发布”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1763,7 +1763,7 @@
       "id": "anbeime-local-video-creation-suite",
       "title": "video-creation-suite：Skill 说明与安装",
       "shortTitle": "video-creation-suite",
-      "category": "Skill 商店：本地技能 / 视频创作",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/video-creation-suite.md",
       "date": "2026-06-15",
       "summary": "video-creation-suite 是 anbeime/skill 本地技能库中“视频创作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1772,7 +1772,7 @@
       "id": "anbeime-local-video-creation-collaborator",
       "title": "video-creation-collaborator：Skill 说明与安装",
       "shortTitle": "video-creation-collaborator",
-      "category": "Skill 商店：本地技能 / 视频创作",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/video-creation-collaborator.md",
       "date": "2026-06-15",
       "summary": "video-creation-collaborator 是 anbeime/skill 本地技能库中“视频创作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1781,7 +1781,7 @@
       "id": "anbeime-local-video-creation-pro",
       "title": "video-creation-pro：Skill 说明与安装",
       "shortTitle": "video-creation-pro",
-      "category": "Skill 商店：本地技能 / 视频创作",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/video-creation-pro.md",
       "date": "2026-06-15",
       "summary": "video-creation-pro 是 anbeime/skill 本地技能库中“视频创作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1790,7 +1790,7 @@
       "id": "anbeime-local-video-recreation",
       "title": "video-recreation：Skill 说明与安装",
       "shortTitle": "video-recreation",
-      "category": "Skill 商店：本地技能 / 视频创作",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/video-recreation.md",
       "date": "2026-06-15",
       "summary": "video-recreation 是 anbeime/skill 本地技能库中“视频创作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1799,7 +1799,7 @@
       "id": "anbeime-local-video-frame-extractor",
       "title": "video-frame-extractor：Skill 说明与安装",
       "shortTitle": "video-frame-extractor",
-      "category": "Skill 商店：本地技能 / 视频创作",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/video-frame-extractor.md",
       "date": "2026-06-15",
       "summary": "video-frame-extractor 是 anbeime/skill 本地技能库中“视频创作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1808,7 +1808,7 @@
       "id": "anbeime-local-viral-video-copywriting",
       "title": "viral-video-copywriting：Skill 说明与安装",
       "shortTitle": "viral-video-copywriting",
-      "category": "Skill 商店：本地技能 / 视频创作",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/viral-video-copywriting.md",
       "date": "2026-06-15",
       "summary": "viral-video-copywriting 是 anbeime/skill 本地技能库中“视频创作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1817,7 +1817,7 @@
       "id": "anbeime-local-historical-science-video-prod",
       "title": "historical-science-video-prod：Skill 说明与安装",
       "shortTitle": "historical-science-video-prod",
-      "category": "Skill 商店：本地技能 / 视频创作",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/historical-science-video-prod.md",
       "date": "2026-06-15",
       "summary": "historical-science-video-prod 是 anbeime/skill 本地技能库中“视频创作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1826,7 +1826,7 @@
       "id": "anbeime-local-historical-interview-scripts",
       "title": "historical-interview-scripts：Skill 说明与安装",
       "shortTitle": "historical-interview-scripts",
-      "category": "Skill 商店：本地技能 / 视频创作",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/historical-interview-scripts.md",
       "date": "2026-06-15",
       "summary": "historical-interview-scripts 是 anbeime/skill 本地技能库中“视频创作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1835,7 +1835,7 @@
       "id": "anbeime-local-three-body-video-creator",
       "title": "three-body-video-creator：Skill 说明与安装",
       "shortTitle": "three-body-video-creator",
-      "category": "Skill 商店：本地技能 / 视频创作",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/three-body-video-creator.md",
       "date": "2026-06-15",
       "summary": "three-body-video-creator 是 anbeime/skill 本地技能库中“视频创作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1844,7 +1844,7 @@
       "id": "anbeime-local-pet-commerce-creator",
       "title": "pet-commerce-creator：Skill 说明与安装",
       "shortTitle": "pet-commerce-creator",
-      "category": "Skill 商店：本地技能 / 电商与营销",
+      "category": "商业与生产力 / 电商、产品与财务",
       "source": "skills/anbeime-skill-store/local/pet-commerce-creator.md",
       "date": "2026-06-15",
       "summary": "pet-commerce-creator 是 anbeime/skill 本地技能库中“电商与营销”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1853,7 +1853,7 @@
       "id": "anbeime-local-ecommerce-copywriter",
       "title": "ecommerce-copywriter：Skill 说明与安装",
       "shortTitle": "ecommerce-copywriter",
-      "category": "Skill 商店：本地技能 / 电商与营销",
+      "category": "商业与生产力 / 电商、产品与财务",
       "source": "skills/anbeime-skill-store/local/ecommerce-copywriter.md",
       "date": "2026-06-15",
       "summary": "ecommerce-copywriter 是 anbeime/skill 本地技能库中“电商与营销”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1862,7 +1862,7 @@
       "id": "anbeime-local-ecommerce-video-marketing",
       "title": "ecommerce-video-marketing：Skill 说明与安装",
       "shortTitle": "ecommerce-video-marketing",
-      "category": "Skill 商店：本地技能 / 电商与营销",
+      "category": "商业与生产力 / 电商、产品与财务",
       "source": "skills/anbeime-skill-store/local/ecommerce-video-marketing.md",
       "date": "2026-06-15",
       "summary": "ecommerce-video-marketing 是 anbeime/skill 本地技能库中“电商与营销”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1871,7 +1871,7 @@
       "id": "anbeime-local-product-marketing-copywriter",
       "title": "product-marketing-copywriter：Skill 说明与安装",
       "shortTitle": "product-marketing-copywriter",
-      "category": "Skill 商店：本地技能 / 电商与营销",
+      "category": "商业与生产力 / 电商、产品与财务",
       "source": "skills/anbeime-skill-store/local/product-marketing-copywriter.md",
       "date": "2026-06-15",
       "summary": "product-marketing-copywriter 是 anbeime/skill 本地技能库中“电商与营销”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1880,7 +1880,7 @@
       "id": "anbeime-local-product-video-creator",
       "title": "product-video-creator：Skill 说明与安装",
       "shortTitle": "product-video-creator",
-      "category": "Skill 商店：本地技能 / 电商与营销",
+      "category": "商业与生产力 / 电商、产品与财务",
       "source": "skills/anbeime-skill-store/local/product-video-creator.md",
       "date": "2026-06-15",
       "summary": "product-video-creator 是 anbeime/skill 本地技能库中“电商与营销”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1889,7 +1889,7 @@
       "id": "anbeime-local-xiaohongshu-makeup",
       "title": "xiaohongshu-makeup：Skill 说明与安装",
       "shortTitle": "xiaohongshu-makeup",
-      "category": "Skill 商店：本地技能 / 电商与营销",
+      "category": "商业与生产力 / 电商、产品与财务",
       "source": "skills/anbeime-skill-store/local/xiaohongshu-makeup.md",
       "date": "2026-06-15",
       "summary": "xiaohongshu-makeup 是 anbeime/skill 本地技能库中“电商与营销”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1898,7 +1898,7 @@
       "id": "anbeime-local-nanobanana-ppt-skills",
       "title": "NanoBanana-PPT-Skills：Skill 说明与安装",
       "shortTitle": "NanoBanana-PPT-Skills",
-      "category": "Skill 商店：本地技能 / PPT与演示",
+      "category": "文档与演示 / PPT 与演示",
       "source": "skills/anbeime-skill-store/local/nanobanana-ppt-skills.md",
       "date": "2026-06-15",
       "summary": "NanoBanana-PPT-Skills 是 anbeime/skill 本地技能库中“PPT与演示”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1907,7 +1907,7 @@
       "id": "anbeime-local-ppt-generator",
       "title": "ppt-generator：Skill 说明与安装",
       "shortTitle": "ppt-generator",
-      "category": "Skill 商店：本地技能 / PPT与演示",
+      "category": "文档与演示 / PPT 与演示",
       "source": "skills/anbeime-skill-store/local/ppt-generator.md",
       "date": "2026-06-15",
       "summary": "ppt-generator 是 anbeime/skill 本地技能库中“PPT与演示”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1916,7 +1916,7 @@
       "id": "anbeime-local-pptx-generator",
       "title": "pptx-generator：Skill 说明与安装",
       "shortTitle": "pptx-generator",
-      "category": "Skill 商店：本地技能 / PPT与演示",
+      "category": "文档与演示 / PPT 与演示",
       "source": "skills/anbeime-skill-store/local/pptx-generator.md",
       "date": "2026-06-15",
       "summary": "pptx-generator 是 anbeime/skill 本地技能库中“PPT与演示”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1925,7 +1925,7 @@
       "id": "anbeime-local-nanobanana-ppt-visualizer",
       "title": "nanobanana-ppt-visualizer：Skill 说明与安装",
       "shortTitle": "nanobanana-ppt-visualizer",
-      "category": "Skill 商店：本地技能 / PPT与演示",
+      "category": "文档与演示 / PPT 与演示",
       "source": "skills/anbeime-skill-store/local/nanobanana-ppt-visualizer.md",
       "date": "2026-06-15",
       "summary": "nanobanana-ppt-visualizer 是 anbeime/skill 本地技能库中“PPT与演示”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1934,7 +1934,7 @@
       "id": "anbeime-local-ppt-roadshow-generator",
       "title": "ppt-roadshow-generator：Skill 说明与安装",
       "shortTitle": "ppt-roadshow-generator",
-      "category": "Skill 商店：本地技能 / PPT与演示",
+      "category": "文档与演示 / PPT 与演示",
       "source": "skills/anbeime-skill-store/local/ppt-roadshow-generator.md",
       "date": "2026-06-15",
       "summary": "ppt-roadshow-generator 是 anbeime/skill 本地技能库中“PPT与演示”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1943,7 +1943,7 @@
       "id": "anbeime-local-remotion-video-enhancer",
       "title": "remotion-video-enhancer：Skill 说明与安装",
       "shortTitle": "remotion-video-enhancer",
-      "category": "Skill 商店：本地技能 / PPT与演示",
+      "category": "文档与演示 / PPT 与演示",
       "source": "skills/anbeime-skill-store/local/remotion-video-enhancer.md",
       "date": "2026-06-15",
       "summary": "remotion-video-enhancer 是 anbeime/skill 本地技能库中“PPT与演示”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1952,7 +1952,7 @@
       "id": "anbeime-local-tts-voice-synthesis",
       "title": "tts-voice-synthesis：Skill 说明与安装",
       "shortTitle": "tts-voice-synthesis",
-      "category": "Skill 商店：本地技能 / 语音与音频",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/tts-voice-synthesis.md",
       "date": "2026-06-15",
       "summary": "tts-voice-synthesis 是 anbeime/skill 本地技能库中“语音与音频”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1961,7 +1961,7 @@
       "id": "anbeime-local-qwen3-tts-local",
       "title": "qwen3-tts-local：Skill 说明与安装",
       "shortTitle": "qwen3-tts-local",
-      "category": "Skill 商店：本地技能 / 语音与音频",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/qwen3-tts-local.md",
       "date": "2026-06-15",
       "summary": "qwen3-tts-local 是 anbeime/skill 本地技能库中“语音与音频”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1970,7 +1970,7 @@
       "id": "anbeime-local-qwen3-asr-assistant",
       "title": "qwen3-asr-assistant：Skill 说明与安装",
       "shortTitle": "qwen3-asr-assistant",
-      "category": "Skill 商店：本地技能 / 语音与音频",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/qwen3-asr-assistant.md",
       "date": "2026-06-15",
       "summary": "qwen3-asr-assistant 是 anbeime/skill 本地技能库中“语音与音频”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1979,7 +1979,7 @@
       "id": "anbeime-local-infinitetalk",
       "title": "infinitetalk：Skill 说明与安装",
       "shortTitle": "infinitetalk",
-      "category": "Skill 商店：本地技能 / 数字人与视频配音",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/infinitetalk.md",
       "date": "2026-06-15",
       "summary": "infinitetalk 是 anbeime/skill 本地技能库中“数字人与视频配音”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1988,7 +1988,7 @@
       "id": "anbeime-local-infinitetalk-shopping-avatar",
       "title": "infinitetalk-shopping-avatar：Skill 说明与安装",
       "shortTitle": "infinitetalk-shopping-avatar",
-      "category": "Skill 商店：本地技能 / 数字人与视频配音",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/infinitetalk-shopping-avatar.md",
       "date": "2026-06-15",
       "summary": "infinitetalk-shopping-avatar 是 anbeime/skill 本地技能库中“数字人与视频配音”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -1997,7 +1997,7 @@
       "id": "anbeime-local-digital-avatar-shopping-video",
       "title": "digital-avatar-shopping-video：Skill 说明与安装",
       "shortTitle": "digital-avatar-shopping-video",
-      "category": "Skill 商店：本地技能 / 数字人与视频配音",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/digital-avatar-shopping-video.md",
       "date": "2026-06-15",
       "summary": "digital-avatar-shopping-video 是 anbeime/skill 本地技能库中“数字人与视频配音”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2006,7 +2006,7 @@
       "id": "anbeime-local-dream-video-prompt-generator",
       "title": "dream-video-prompt-generator：Skill 说明与安装",
       "shortTitle": "dream-video-prompt-generator",
-      "category": "Skill 商店：本地技能 / 数字人与视频配音",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/dream-video-prompt-generator.md",
       "date": "2026-06-15",
       "summary": "dream-video-prompt-generator 是 anbeime/skill 本地技能库中“数字人与视频配音”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2015,7 +2015,7 @@
       "id": "anbeime-local-agentkit-multimedia-shopping",
       "title": "agentkit-multimedia-shopping：Skill 说明与安装",
       "shortTitle": "agentkit-multimedia-shopping",
-      "category": "Skill 商店：本地技能 / 数字人与视频配音",
+      "category": "内容创作与设计 / 视频音频",
       "source": "skills/anbeime-skill-store/local/agentkit-multimedia-shopping.md",
       "date": "2026-06-15",
       "summary": "agentkit-multimedia-shopping 是 anbeime/skill 本地技能库中“数字人与视频配音”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2024,7 +2024,7 @@
       "id": "anbeime-local-paper-analysis-assistant",
       "title": "paper-analysis-assistant：Skill 说明与安装",
       "shortTitle": "paper-analysis-assistant",
-      "category": "Skill 商店：本地技能 / 文档与分析",
+      "category": "安全与分析 / 文档审查与研究分析",
       "source": "skills/anbeime-skill-store/local/paper-analysis-assistant.md",
       "date": "2026-06-15",
       "summary": "paper-analysis-assistant 是 anbeime/skill 本地技能库中“文档与分析”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2033,7 +2033,7 @@
       "id": "anbeime-local-contract-review",
       "title": "contract-review：Skill 说明与安装",
       "shortTitle": "contract-review",
-      "category": "Skill 商店：本地技能 / 文档与分析",
+      "category": "安全与分析 / 文档审查与研究分析",
       "source": "skills/anbeime-skill-store/local/contract-review.md",
       "date": "2026-06-15",
       "summary": "contract-review 是 anbeime/skill 本地技能库中“文档与分析”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2042,7 +2042,7 @@
       "id": "anbeime-local-law-to-markdown",
       "title": "law-to-markdown：Skill 说明与安装",
       "shortTitle": "law-to-markdown",
-      "category": "Skill 商店：本地技能 / 文档与分析",
+      "category": "安全与分析 / 文档审查与研究分析",
       "source": "skills/anbeime-skill-store/local/law-to-markdown.md",
       "date": "2026-06-15",
       "summary": "law-to-markdown 是 anbeime/skill 本地技能库中“文档与分析”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2051,7 +2051,7 @@
       "id": "anbeime-local-stock-analysis",
       "title": "stock-analysis：Skill 说明与安装",
       "shortTitle": "stock-analysis",
-      "category": "Skill 商店：本地技能 / 文档与分析",
+      "category": "安全与分析 / 文档审查与研究分析",
       "source": "skills/anbeime-skill-store/local/stock-analysis.md",
       "date": "2026-06-15",
       "summary": "stock-analysis 是 anbeime/skill 本地技能库中“文档与分析”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2060,7 +2060,7 @@
       "id": "anbeime-local-agent-team",
       "title": "agent-team：Skill 说明与安装",
       "shortTitle": "agent-team",
-      "category": "Skill 商店：本地技能 / 智能体协作",
+      "category": "AI 与智能体 / 多智能体协作",
       "source": "skills/anbeime-skill-store/local/agent-team.md",
       "date": "2026-06-15",
       "summary": "agent-team 是 anbeime/skill 本地技能库中“智能体协作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2069,7 +2069,7 @@
       "id": "anbeime-local-multi-agent-meeting",
       "title": "multi-agent-meeting：Skill 说明与安装",
       "shortTitle": "multi-agent-meeting",
-      "category": "Skill 商店：本地技能 / 智能体协作",
+      "category": "AI 与智能体 / 多智能体协作",
       "source": "skills/anbeime-skill-store/local/multi-agent-meeting.md",
       "date": "2026-06-15",
       "summary": "multi-agent-meeting 是 anbeime/skill 本地技能库中“智能体协作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2078,7 +2078,7 @@
       "id": "anbeime-local-peers-advisory-group",
       "title": "peers-advisory-group：Skill 说明与安装",
       "shortTitle": "peers-advisory-group",
-      "category": "Skill 商店：本地技能 / 智能体协作",
+      "category": "AI 与智能体 / 多智能体协作",
       "source": "skills/anbeime-skill-store/local/peers-advisory-group.md",
       "date": "2026-06-15",
       "summary": "peers-advisory-group 是 anbeime/skill 本地技能库中“智能体协作”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2087,7 +2087,7 @@
       "id": "anbeime-local-product-manager-toolkit",
       "title": "product-manager-toolkit：Skill 说明与安装",
       "shortTitle": "product-manager-toolkit",
-      "category": "Skill 商店：本地技能 / 产品与项目管理",
+      "category": "商业与生产力 / 电商、产品与财务",
       "source": "skills/anbeime-skill-store/local/product-manager-toolkit.md",
       "date": "2026-06-15",
       "summary": "product-manager-toolkit 是 anbeime/skill 本地技能库中“产品与项目管理”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2096,7 +2096,7 @@
       "id": "anbeime-local-sales-ai-assistant",
       "title": "sales-ai-assistant：Skill 说明与安装",
       "shortTitle": "sales-ai-assistant",
-      "category": "Skill 商店：本地技能 / 产品与项目管理",
+      "category": "商业与生产力 / 电商、产品与财务",
       "source": "skills/anbeime-skill-store/local/sales-ai-assistant.md",
       "date": "2026-06-15",
       "summary": "sales-ai-assistant 是 anbeime/skill 本地技能库中“产品与项目管理”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2105,7 +2105,7 @@
       "id": "anbeime-local-frontend-design",
       "title": "frontend-design：Skill 说明与安装",
       "shortTitle": "frontend-design",
-      "category": "Skill 商店：本地技能 / 设计与可视化",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/local/frontend-design.md",
       "date": "2026-06-15",
       "summary": "frontend-design 是 anbeime/skill 本地技能库中“设计与可视化”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2114,7 +2114,7 @@
       "id": "anbeime-local-ai-drawio",
       "title": "ai-drawio：Skill 说明与安装",
       "shortTitle": "ai-drawio",
-      "category": "Skill 商店：本地技能 / 设计与可视化",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/local/ai-drawio.md",
       "date": "2026-06-15",
       "summary": "ai-drawio 是 anbeime/skill 本地技能库中“设计与可视化”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2123,7 +2123,7 @@
       "id": "anbeime-local-pop-up-book-illustration",
       "title": "pop-up-book-illustration：Skill 说明与安装",
       "shortTitle": "pop-up-book-illustration",
-      "category": "Skill 商店：本地技能 / 设计与可视化",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/local/pop-up-book-illustration.md",
       "date": "2026-06-15",
       "summary": "pop-up-book-illustration 是 anbeime/skill 本地技能库中“设计与可视化”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2132,7 +2132,7 @@
       "id": "anbeime-local-web-to-app",
       "title": "web-to-app：Skill 说明与安装",
       "shortTitle": "web-to-app",
-      "category": "Skill 商店：本地技能 / 设计与可视化",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/local/web-to-app.md",
       "date": "2026-06-15",
       "summary": "web-to-app 是 anbeime/skill 本地技能库中“设计与可视化”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2141,7 +2141,7 @@
       "id": "anbeime-local-web-design-analyzer",
       "title": "web-design-analyzer：Skill 说明与安装",
       "shortTitle": "web-design-analyzer",
-      "category": "Skill 商店：本地技能 / 设计与可视化",
+      "category": "内容创作与设计 / 视觉设计",
       "source": "skills/anbeime-skill-store/local/web-design-analyzer.md",
       "date": "2026-06-15",
       "summary": "web-design-analyzer 是 anbeime/skill 本地技能库中“设计与可视化”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2150,7 +2150,7 @@
       "id": "anbeime-local-pptx",
       "title": "pptx：Skill 说明与安装",
       "shortTitle": "pptx",
-      "category": "Skill 商店：本地技能 / 文档处理",
+      "category": "文档与演示 / PPT 与演示",
       "source": "skills/anbeime-skill-store/local/pptx.md",
       "date": "2026-06-15",
       "summary": "pptx 是 anbeime/skill 本地技能库中“文档处理”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2159,7 +2159,7 @@
       "id": "anbeime-local-xlsx",
       "title": "xlsx：Skill 说明与安装",
       "shortTitle": "xlsx",
-      "category": "Skill 商店：本地技能 / 文档处理",
+      "category": "文档与演示 / 文档处理",
       "source": "skills/anbeime-skill-store/local/xlsx.md",
       "date": "2026-06-15",
       "summary": "xlsx 是 anbeime/skill 本地技能库中“文档处理”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2168,7 +2168,7 @@
       "id": "anbeime-local-pdf",
       "title": "pdf：Skill 说明与安装",
       "shortTitle": "pdf",
-      "category": "Skill 商店：本地技能 / 文档处理",
+      "category": "文档与演示 / 文档处理",
       "source": "skills/anbeime-skill-store/local/pdf.md",
       "date": "2026-06-15",
       "summary": "pdf 是 anbeime/skill 本地技能库中“文档处理”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2177,7 +2177,7 @@
       "id": "anbeime-local-docx",
       "title": "docx：Skill 说明与安装",
       "shortTitle": "docx",
-      "category": "Skill 商店：本地技能 / 文档处理",
+      "category": "文档与演示 / 文档处理",
       "source": "skills/anbeime-skill-store/local/docx.md",
       "date": "2026-06-15",
       "summary": "docx 是 anbeime/skill 本地技能库中“文档处理”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2186,7 +2186,7 @@
       "id": "anbeime-local-find-skill",
       "title": "find-skill：Skill 说明与安装",
       "shortTitle": "find-skill",
-      "category": "Skill 商店：本地技能 / 技能管理",
+      "category": "开发与自动化 / Skill 创建与管理",
       "source": "skills/anbeime-skill-store/local/find-skill.md",
       "date": "2026-06-15",
       "summary": "find-skill 是 anbeime/skill 本地技能库中“技能管理”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2195,7 +2195,7 @@
       "id": "anbeime-local-skill-creator",
       "title": "skill-creator：Skill 说明与安装",
       "shortTitle": "skill-creator",
-      "category": "Skill 商店：本地技能 / 技能管理",
+      "category": "开发与自动化 / Skill 创建与管理",
       "source": "skills/anbeime-skill-store/local/skill-creator.md",
       "date": "2026-06-15",
       "summary": "skill-creator 是 anbeime/skill 本地技能库中“技能管理”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2204,7 +2204,7 @@
       "id": "anbeime-local-creating-financial-models",
       "title": "creating-financial-models：Skill 说明与安装",
       "shortTitle": "creating-financial-models",
-      "category": "Skill 商店：本地技能 / 财务分析",
+      "category": "商业与生产力 / 电商、产品与财务",
       "source": "skills/anbeime-skill-store/local/creating-financial-models.md",
       "date": "2026-06-15",
       "summary": "creating-financial-models 是 anbeime/skill 本地技能库中“财务分析”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2213,7 +2213,7 @@
       "id": "anbeime-local-market-research-reports",
       "title": "market-research-reports：Skill 说明与安装",
       "shortTitle": "market-research-reports",
-      "category": "Skill 商店：本地技能 / 财务分析",
+      "category": "商业与生产力 / 电商、产品与财务",
       "source": "skills/anbeime-skill-store/local/market-research-reports.md",
       "date": "2026-06-15",
       "summary": "market-research-reports 是 anbeime/skill 本地技能库中“财务分析”分类下的条目，文章包含用途、触发方式和安装注意事项。"
@@ -2222,7 +2222,7 @@
       "id": "anbeime-local-poetry-music-visual",
       "title": "poetry-music-visual：Skill 说明与安装",
       "shortTitle": "poetry-music-visual",
-      "category": "Skill 商店：本地技能 / 文化创作",
+      "category": "内容创作与设计 / 文化创作",
       "source": "skills/anbeime-skill-store/local/poetry-music-visual.md",
       "date": "2026-06-15",
       "summary": "poetry-music-visual 是 anbeime/skill 本地技能库中“文化创作”分类下的条目，文章包含用途、触发方式和安装注意事项。"

@@ -2,10 +2,32 @@ const appState = {
   manifest: null,
   activeArticleId: null,
   headings: [],
-  observer: null
+  observer: null,
+  expandedGroups: new Set(),
+  expandedSubgroups: new Set()
 };
 
-const ARTICLE_CATEGORY_ORDER = ["入门教程"];
+const CATEGORY_ORDER = [
+  "入门与生态",
+  "文档与演示",
+  "内容创作与设计",
+  "开发与自动化",
+  "安全与分析",
+  "AI 与智能体",
+  "商业与生产力",
+  "垂直领域与其他"
+];
+
+const SUBCATEGORY_ORDER = {
+  "入门与生态": ["Codex 入门", "工具扩展", "Skill 使用"],
+  "文档与演示": ["文档处理", "PPT 与演示"],
+  "内容创作与设计": ["内容发布", "视觉设计", "视频音频", "文化创作"],
+  "开发与自动化": ["应用开发与部署", "数据与后端", "测试与工程效率", "自动化流程", "Skill 创建与管理"],
+  "安全与分析": ["安全审计与认证", "文档审查与研究分析"],
+  "AI 与智能体": ["模型与机器学习", "上下文与提示工程", "多智能体协作"],
+  "商业与生产力": ["品牌、营销与 CMS", "协作与知识管理", "支付与商业系统", "电商、产品与财务"],
+  "垂直领域与其他": ["专业领域", "其他技能"]
+};
 
 const elements = {
   article: document.querySelector("#article"),
@@ -107,7 +129,9 @@ function setArticleHash(articleId) {
 function renderArticleNav() {
   const query = elements.articleSearch.value.trim().toLowerCase();
   const articles = appState.manifest.articles.filter((article) => {
-    const haystack = `${article.title} ${article.shortTitle} ${article.category}`.toLowerCase();
+    const category = parseArticleCategory(article.category);
+    const haystack =
+      `${article.title} ${article.shortTitle} ${article.category} ${category.group} ${category.subgroup}`.toLowerCase();
     return haystack.includes(query);
   });
 
@@ -116,44 +140,162 @@ function renderArticleNav() {
     return;
   }
 
-  const groups = groupBy(articles, "category");
-  elements.articleNav.innerHTML = Object.entries(groups)
-    .sort(([categoryA], [categoryB]) => compareArticleCategories(categoryA, categoryB))
-    .map(([category, groupArticles]) => {
-      const links = groupArticles
-        .map((article) => {
-          const activeClass = article.id === appState.activeArticleId ? " is-active" : "";
-          return `
-            <a class="article-link${activeClass}" href="#article=${escapeAttr(article.id)}" data-article-id="${escapeAttr(article.id)}">
-              ${escapeHtml(article.shortTitle || article.title)}
-            </a>
-          `;
-        })
-        .join("");
+  const tree = buildArticleNavTree(articles);
+  const forceOpen = Boolean(query);
+  elements.articleNav.innerHTML = tree.map((groupNode) => renderArticleGroup(groupNode, forceOpen)).join("");
 
-      return `
-        <section class="article-group">
-          <h2 class="article-group-title">${escapeHtml(category)}</h2>
-          ${links}
-        </section>
-      `;
-    })
-    .join("");
+  elements.articleNav.querySelectorAll("[data-nav-toggle='group']").forEach((button) => {
+    button.addEventListener("click", () => {
+      toggleExpanded(appState.expandedGroups, button.dataset.groupKey);
+      renderArticleNav();
+    });
+  });
+
+  elements.articleNav.querySelectorAll("[data-nav-toggle='subgroup']").forEach((button) => {
+    button.addEventListener("click", () => {
+      toggleExpanded(appState.expandedSubgroups, button.dataset.subgroupKey);
+      renderArticleNav();
+    });
+  });
 
   elements.articleNav.querySelectorAll("[data-article-id]").forEach((link) => {
     link.addEventListener("click", closeMobileNav);
   });
 }
 
-function compareArticleCategories(categoryA, categoryB) {
-  const rankA = getArticleCategoryRank(categoryA);
-  const rankB = getArticleCategoryRank(categoryB);
-  return rankA - rankB;
+function buildArticleNavTree(articles) {
+  const groupMap = new Map();
+
+  articles.forEach((article, index) => {
+    const category = parseArticleCategory(article.category);
+    const groupKey = category.group;
+    const subgroupKey = getSubgroupKey(category);
+
+    if (!groupMap.has(groupKey)) {
+      groupMap.set(groupKey, {
+        key: groupKey,
+        title: category.group,
+        count: 0,
+        subgroups: new Map()
+      });
+    }
+
+    const groupNode = groupMap.get(groupKey);
+    groupNode.count += 1;
+
+    if (!groupNode.subgroups.has(subgroupKey)) {
+      groupNode.subgroups.set(subgroupKey, {
+        key: subgroupKey,
+        title: category.subgroup,
+        group: category.group,
+        count: 0,
+        articles: []
+      });
+    }
+
+    const subgroupNode = groupNode.subgroups.get(subgroupKey);
+    subgroupNode.count += 1;
+    subgroupNode.articles.push({ ...article, navIndex: index });
+  });
+
+  return Array.from(groupMap.values())
+    .sort(compareGroupNodes)
+    .map((groupNode) => ({
+      ...groupNode,
+      subgroups: Array.from(groupNode.subgroups.values()).sort(compareSubgroupNodes)
+    }));
 }
 
-function getArticleCategoryRank(category) {
-  const index = ARTICLE_CATEGORY_ORDER.indexOf(category);
-  return index === -1 ? ARTICLE_CATEGORY_ORDER.length : index;
+function renderArticleGroup(groupNode, forceOpen) {
+  const isOpen = forceOpen || appState.expandedGroups.has(groupNode.key);
+  const subgroups = isOpen
+    ? `<div class="article-subgroups">${groupNode.subgroups.map((subgroupNode) => renderArticleSubgroup(subgroupNode, forceOpen)).join("")}</div>`
+    : "";
+
+  return `
+    <section class="article-group" data-open="${isOpen}">
+      <button class="article-group-toggle" type="button" aria-expanded="${isOpen}" data-nav-toggle="group" data-group-key="${escapeAttr(groupNode.key)}">
+        <span class="nav-caret" aria-hidden="true"></span>
+        <span class="nav-label">${escapeHtml(groupNode.title)}</span>
+        <span class="nav-count">${groupNode.count}</span>
+      </button>
+      ${subgroups}
+    </section>
+  `;
+}
+
+function renderArticleSubgroup(subgroupNode, forceOpen) {
+  const isOpen = forceOpen || appState.expandedSubgroups.has(subgroupNode.key);
+  const links = isOpen
+    ? `<div class="article-links">${subgroupNode.articles.map(renderArticleLink).join("")}</div>`
+    : "";
+
+  return `
+    <section class="article-subgroup" data-open="${isOpen}">
+      <button class="article-subgroup-toggle" type="button" aria-expanded="${isOpen}" data-nav-toggle="subgroup" data-subgroup-key="${escapeAttr(subgroupNode.key)}">
+        <span class="nav-caret" aria-hidden="true"></span>
+        <span class="nav-label">${escapeHtml(subgroupNode.title)}</span>
+        <span class="nav-count">${subgroupNode.count}</span>
+      </button>
+      ${links}
+    </section>
+  `;
+}
+
+function renderArticleLink(article) {
+  const activeClass = article.id === appState.activeArticleId ? " is-active" : "";
+  return `
+    <a class="article-link${activeClass}" href="#article=${escapeAttr(article.id)}" data-article-id="${escapeAttr(article.id)}">
+      ${escapeHtml(article.shortTitle || article.title)}
+    </a>
+  `;
+}
+
+function compareGroupNodes(groupA, groupB) {
+  return getGroupRank(groupA.title) - getGroupRank(groupB.title) || groupA.title.localeCompare(groupB.title, "zh-Hans-CN");
+}
+
+function compareSubgroupNodes(subgroupA, subgroupB) {
+  const rankA = getSubgroupRank(subgroupA.group, subgroupA.title);
+  const rankB = getSubgroupRank(subgroupB.group, subgroupB.title);
+  return rankA - rankB || subgroupA.title.localeCompare(subgroupB.title, "zh-Hans-CN");
+}
+
+function getGroupRank(group) {
+  const index = CATEGORY_ORDER.indexOf(group);
+  return index === -1 ? CATEGORY_ORDER.length : index;
+}
+
+function getSubgroupRank(group, subgroup) {
+  const order = SUBCATEGORY_ORDER[group] || [];
+  const index = order.indexOf(subgroup);
+  return index === -1 ? order.length : index;
+}
+
+function parseArticleCategory(category) {
+  const [group, ...rest] = String(category || "未分类 / 其他技能").split(" / ");
+  return {
+    group: group.trim() || "未分类",
+    subgroup: rest.join(" / ").trim() || "其他技能"
+  };
+}
+
+function getSubgroupKey(category) {
+  return `${category.group} / ${category.subgroup}`;
+}
+
+function toggleExpanded(collection, key) {
+  if (collection.has(key)) {
+    collection.delete(key);
+  } else {
+    collection.add(key);
+  }
+}
+
+function expandArticlePath(article) {
+  const category = parseArticleCategory(article.category);
+  appState.expandedGroups.add(category.group);
+  appState.expandedSubgroups.add(getSubgroupKey(category));
 }
 
 async function loadArticle(articleId) {
@@ -165,6 +307,7 @@ async function loadArticle(articleId) {
 
   elements.article.innerHTML = `<div class="loading-state">正在加载文章...</div>`;
   appState.activeArticleId = articleId;
+  expandArticlePath(articleMeta);
   renderArticleNav();
   setArticleHash(articleId);
 
@@ -441,15 +584,6 @@ function stripInlineMarkdown(text) {
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
     .replace(/[*_`]/g, "")
     .trim();
-}
-
-function groupBy(items, key) {
-  return items.reduce((groups, item) => {
-    const groupName = item[key] || "未分类";
-    groups[groupName] ||= [];
-    groups[groupName].push(item);
-    return groups;
-  }, {});
 }
 
 function closeMobileNav() {

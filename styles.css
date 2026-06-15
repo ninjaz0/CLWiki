@@ -279,24 +279,110 @@ input {
 }
 
 .article-group {
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
-.article-group-title {
-  margin: 0 0 10px;
-  color: var(--muted);
+.article-subgroups {
+  display: grid;
+  gap: 5px;
+  margin: 6px 0 0 12px;
+  padding-left: 10px;
+  border-left: 1px solid var(--line-soft);
+}
+
+.article-subgroup {
+  min-width: 0;
+}
+
+.article-links {
+  display: grid;
+  gap: 2px;
+  margin: 4px 0 8px 11px;
+  padding-left: 10px;
+  border-left: 1px solid var(--line-soft);
+}
+
+.article-group-toggle,
+.article-subgroup-toggle {
+  width: 100%;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 16px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 9px;
+  color: #2d3645;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.article-group-toggle {
+  font-size: 14px;
+  font-weight: 850;
+}
+
+.article-subgroup-toggle {
+  color: #4d596d;
   font-size: 13px;
+  font-weight: 760;
+}
+
+.article-group-toggle:hover,
+.article-subgroup-toggle:hover {
+  color: var(--accent);
+  background: #edf4ff;
+}
+
+.nav-caret {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid currentColor;
+  transform: translateX(2px);
+  transition: transform 0.16s ease;
+}
+
+.article-group[data-open="true"] > .article-group-toggle .nav-caret,
+.article-subgroup[data-open="true"] > .article-subgroup-toggle .nav-caret {
+  transform: translateX(0) rotate(90deg);
+}
+
+.nav-label {
+  min-width: 0;
+  overflow: hidden;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nav-count {
+  min-width: 24px;
+  height: 20px;
+  padding: 0 7px;
+  color: var(--muted);
+  font-size: 12px;
   font-weight: 800;
+  line-height: 20px;
+  text-align: center;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
 }
 
 .article-link {
   display: block;
-  padding: 9px 12px;
+  min-width: 0;
+  padding: 7px 10px;
   color: #2d3645;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   border-left: 3px solid transparent;
   border-radius: 0 8px 8px 0;
+  overflow-wrap: anywhere;
 }
 
 .article-link:hover,
