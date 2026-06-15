@@ -21,6 +21,15 @@
       "source": "codexplusplus.md",
       "date": "2026-06-15",
       "summary": "介绍 Codex++ 的定位、工作方式、主要功能、安装入口和使用边界。"
+    },
+    {
+      "id": "research-writing-skill-intro",
+      "title": "Research Writing Skill：把论文写作变成可追踪的协作流程",
+      "shortTitle": "Research Writing Skill",
+      "category": "Skill 生态",
+      "source": "skills/research-writing-skill.md",
+      "date": "2026-06-15",
+      "summary": "介绍科研写作助手 Skill 的定位、模块结构、使用流程、适配平台和使用边界。"
     }
   ]
 }
