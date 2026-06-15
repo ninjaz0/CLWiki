@@ -30,6 +30,15 @@
       "source": "skills/research-writing-skill.md",
       "date": "2026-06-15",
       "summary": "介绍科研写作助手 Skill 的定位、模块结构、使用流程、适配平台和使用边界。"
+    },
+    {
+      "id": "install-skills-with-codex",
+      "title": "Skill 清单里的 Skill 怎么安装：直接用自然语言让 Codex 自己装",
+      "shortTitle": "Skill 安装方法",
+      "category": "Skill 生态",
+      "source": "skills/install-skills-with-codex.md",
+      "date": "2026-06-15",
+      "summary": "讲解 Skill 清单、GitHub Skill 和本地 Skill 的安装思路，并给出可直接复制给 Codex 的自然语言示例。"
     }
   ]
 }
