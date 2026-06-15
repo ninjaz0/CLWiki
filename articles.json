@@ -12,6 +12,15 @@
       "source": "1.md",
       "date": "2026-06-15",
       "summary": "从入口、Threads、项目文件夹、配置项到 Vibe Coding 的 Codex 新手路线。"
+    },
+    {
+      "id": "codexplusplus-intro",
+      "title": "Codex++：给 Codex App 加一层外部增强启动器",
+      "shortTitle": "Codex++ 介绍",
+      "category": "工具生态",
+      "source": "codexplusplus.md",
+      "date": "2026-06-15",
+      "summary": "介绍 Codex++ 的定位、工作方式、主要功能、安装入口和使用边界。"
     }
   ]
 }
