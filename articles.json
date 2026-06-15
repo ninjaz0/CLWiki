@@ -1,0 +1,17 @@
+{
+  "site": {
+    "title": "CLWiki",
+    "description": "Codex 使用经验知识库"
+  },
+  "articles": [
+    {
+      "id": "codex-from-zero-to-one",
+      "title": "写给 Codex 小白用户的详细教程：从 0 到 1，把 Codex 真正用起来",
+      "shortTitle": "Codex 从 0 到 1",
+      "category": "入门教程",
+      "source": "1.md",
+      "date": "2026-06-15",
+      "summary": "从入口、Threads、项目文件夹、配置项到 Vibe Coding 的 Codex 新手路线。"
+    }
+  ]
+}
