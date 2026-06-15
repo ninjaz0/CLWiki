@@ -5,6 +5,8 @@ const appState = {
   observer: null
 };
 
+const ARTICLE_CATEGORY_ORDER = ["入门教程"];
+
 const elements = {
   article: document.querySelector("#article"),
   articleNav: document.querySelector("#articles"),
@@ -116,6 +118,7 @@ function renderArticleNav() {
 
   const groups = groupBy(articles, "category");
   elements.articleNav.innerHTML = Object.entries(groups)
+    .sort(([categoryA], [categoryB]) => compareArticleCategories(categoryA, categoryB))
     .map(([category, groupArticles]) => {
       const links = groupArticles
         .map((article) => {
@@ -140,6 +143,17 @@ function renderArticleNav() {
   elements.articleNav.querySelectorAll("[data-article-id]").forEach((link) => {
     link.addEventListener("click", closeMobileNav);
   });
+}
+
+function compareArticleCategories(categoryA, categoryB) {
+  const rankA = getArticleCategoryRank(categoryA);
+  const rankB = getArticleCategoryRank(categoryB);
+  return rankA - rankB;
+}
+
+function getArticleCategoryRank(category) {
+  const index = ARTICLE_CATEGORY_ORDER.indexOf(category);
+  return index === -1 ? ARTICLE_CATEGORY_ORDER.length : index;
 }
 
 async function loadArticle(articleId) {
