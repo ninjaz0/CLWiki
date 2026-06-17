@@ -14,6 +14,15 @@
       "summary": "介绍 md2wechat 的安装、配置、Agent 使用规则，以及从 Markdown 到微信公众号预览、转换和草稿的主流程。"
     },
     {
+      "id": "yuan1z0825-nature-skills",
+      "title": "Yuan1z0825/nature-skills：Nature 风格科研写作、绘图与论文工作流 Skill 集合",
+      "shortTitle": "nature-skills",
+      "category": "入门与生态 / Skill 使用",
+      "source": "skills/yuan1z0825-nature-skills.md",
+      "date": "2026-06-17",
+      "summary": "介绍 nature-skills 的定位、安装规则、11 个子 Skill、推荐触发话术和科研使用边界。"
+    },
+    {
       "id": "codex-from-zero-to-one",
       "title": "写给 Codex 小白用户的详细教程：从 0 到 1，把 Codex 真正用起来",
       "shortTitle": "Codex 从 0 到 1",
